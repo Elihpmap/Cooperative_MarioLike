@@ -23,6 +23,8 @@ public class GameOverGestion : MonoBehaviour
 
             yield return new WaitForSeconds(delay);
 
+
+        //changement de scene
     }
 
 }

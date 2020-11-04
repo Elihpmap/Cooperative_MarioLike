@@ -5,20 +5,19 @@ using UnityEngine.Tilemaps;
 
 public class FallingPlateform : MonoBehaviour
 {
+    public GameObject plateform;
+    public Rigidbody2D rigid;
+
     public float FallingTime = 1;
     public float FallingSpeed = 2;
     public float TimeBeforeRespawn = 3;
     [SerializeField] private bool Falling;
-    private GameObject plateform;
-    private Rigidbody2D rigid;
     [SerializeField] private Vector3 initialPos;
     private float Compt;
     // Start is called before the first frame update
     void Start()
     {
-        plateform = this.transform.Find("Plateform").gameObject;
         Falling = false;
-        rigid = GetComponentInChildren<Rigidbody2D>();
         initialPos = plateform.transform.localPosition;
     }
 

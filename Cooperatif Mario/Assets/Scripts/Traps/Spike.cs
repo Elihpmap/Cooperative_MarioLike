@@ -9,7 +9,6 @@ public class Spike : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player" && !GameOverGestion.alreadyDead)
         {
-            Debug.Log("here");
             GameObject GO = GameObject.Find("GameOver");
             GO.GetComponent<GameOverGestion>().StartCoroutine("GameOverStart", 1f);
 

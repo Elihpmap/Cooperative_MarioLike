@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MovingPlateform : MonoBehaviour
 {
+    public GameObject plateform;
+
     public float LeftDeplacement, RightDeplacement, TimeDeplacement;
     public DirectionPlateform direction;
 
@@ -24,16 +26,16 @@ public class MovingPlateform : MonoBehaviour
     void Update()
     {
         if (direction == DirectionPlateform.Verticale)
-            this.transform.position = new Vector3(this.transform.position.x, Mathf.PingPong(Time.time * deltaDepla / TimeDeplacement, deltaDepla) + (posIni - LeftDeplacement), this.transform.position.z);
+            plateform.transform.position = new Vector3(plateform.transform.position.x, Mathf.PingPong(Time.time * deltaDepla / TimeDeplacement, deltaDepla) + (posIni - LeftDeplacement), plateform.transform.position.z);
         else
         {
             if (posIni < 0)
             {
-                this.transform.position = new Vector3((Mathf.PingPong(Time.time * deltaDepla / TimeDeplacement, deltaDepla) + (Mathf.Abs(posIni) - LeftDeplacement)) * -1, this.transform.position.y, this.transform.position.z);
+                plateform.transform.position = new Vector3((Mathf.PingPong(Time.time * deltaDepla / TimeDeplacement, deltaDepla) + (Mathf.Abs(posIni) - LeftDeplacement)) * -1, plateform.transform.position.y, plateform.transform.position.z);
             }
             else
             {
-                this.transform.position = new Vector3(Mathf.PingPong(Time.time * deltaDepla / TimeDeplacement, deltaDepla) + (posIni - LeftDeplacement), this.transform.position.y, this.transform.position.z);
+                plateform.transform.position = new Vector3(Mathf.PingPong(Time.time * deltaDepla / TimeDeplacement, deltaDepla) + (posIni - LeftDeplacement), plateform.transform.position.y, plateform.transform.position.z);
             }
         }
     }
