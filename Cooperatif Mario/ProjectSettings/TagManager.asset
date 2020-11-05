@@ -15,10 +15,10 @@ TagManager:
   - 
   - 
   - Ground
-  - MonsterColliderWithWall
-  - 
-  - 
-  - 
+  - Environment
+  - Collectibles
+  - Player
+  - Ennemies
   - 
   - 
   - 
