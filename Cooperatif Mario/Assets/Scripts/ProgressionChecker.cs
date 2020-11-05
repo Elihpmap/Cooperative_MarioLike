@@ -10,7 +10,7 @@ public class ProgressionChecker : MonoBehaviour
 
     public float totalHorizontalDistance;
     public float playerDistance;
-    public float percentageDone = 0;
+    public static float percentageDone = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +20,7 @@ public class ProgressionChecker : MonoBehaviour
         {
             player = GameObject.FindWithTag("Player").GetComponent<Transform>();
         }
-
+        percentageDone = 0;
         totalHorizontalDistance = end.position.x - beginning.position.x;
     }
 

@@ -47,9 +47,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        JumpController();
-        MovementController();
-
+        if (!PauseGestion.isPaused)
+        {
+            JumpController();
+            MovementController();
+        }
         if (m_Rigidbody2D.velocity.y < -MaxFallSpeed)
         {
             m_Rigidbody2D.velocity = new Vector3(m_Rigidbody2D.velocity.x, -MaxFallSpeed, m_Rigidbody2D.velocity.x);
@@ -79,7 +81,7 @@ public class PlayerMovement : MonoBehaviour
         grounded = Physics2D.Raycast(this.transform.position + (Vector3.left * raycastecart), Vector2.down, raycast, mask) || Physics2D.Raycast(this.transform.position - (Vector3.left * raycastecart), Vector2.down, raycast, mask);
         animator.SetBool("grounded", grounded);
 
-        if ((canMove))// && !PauseGestion.isPaused)
+        if ((canMove))//&& !PauseGestion.isPaused)
         {
             if (Input.GetButtonDown("Jump") && grounded)
             {
