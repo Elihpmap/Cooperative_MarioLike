@@ -15,7 +15,10 @@ public class PickUpOnPlayerTouch : MonoBehaviour
 
     private void Start()
     {
-    // verify that playerstate isn't null;
+        if (!player) // if player is not set yet we search for the first gameObject with the tag "Player" instead
+        {
+            player = GameObject.FindWithTag("Player").GetComponent<PlayerState>();
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
