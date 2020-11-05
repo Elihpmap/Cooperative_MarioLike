@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/LaboMatthieu.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/MainMenu.unity
+    guid: eba98e2b0d3e38f46ad3c0ad16eccfd4
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: a727166289413e540817869a2b27d60b
   m_configObjects: {}

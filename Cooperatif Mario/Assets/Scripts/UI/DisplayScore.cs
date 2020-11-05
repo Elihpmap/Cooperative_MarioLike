@@ -13,7 +13,7 @@ public class DisplayScore : MonoBehaviour
     private void Update()
     {
         if (bestScoreToDisplay)
-            scoreDisplay.text = PlayerPrefs.GetInt("Score", 0) + "%";
+            scoreDisplay.text = "Best Score :" + PlayerPrefs.GetInt("Score", 0) + "%";
 
         else
             scoreDisplay.text = (int)ProgressionChecker.percentageDone + "%";
