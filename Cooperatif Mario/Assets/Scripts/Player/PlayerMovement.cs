@@ -65,19 +65,19 @@ public class PlayerMovement : MonoBehaviour
             m_Rigidbody2D.velocity = new Vector2(move * speed, m_Rigidbody2D.velocity.y);
         }
         spriteRenderer.flipX = (move > 0.1) ? false : (move < -0.1) ? true : spriteRenderer.flipX;
-       // animator.SetFloat("velocityX", Mathf.Abs(move));
+       animator.SetFloat("velocityX", Mathf.Abs(move));
     }
 
     private void JumpController()
     {
-        LayerMask mask = LayerMask.GetMask("Ground") | LayerMask.GetMask("Glass");
+        LayerMask mask = LayerMask.GetMask("Ground") | LayerMask.GetMask("EnemieHead");
         // Si le joueur atterit
         if (!grounded && grounded != Physics2D.Raycast(this.transform.position, Vector2.down, raycast, mask))
         {
             //if (audioSource != null) audioSource.Play();
         }
         grounded = Physics2D.Raycast(this.transform.position + (Vector3.left * raycastecart), Vector2.down, raycast, mask) || Physics2D.Raycast(this.transform.position - (Vector3.left * raycastecart), Vector2.down, raycast, mask);
-      //  animator.SetBool("grounded", grounded);
+        animator.SetBool("grounded", grounded);
 
         if ((canMove))// && !PauseGestion.isPaused)
         {
@@ -87,7 +87,7 @@ public class PlayerMovement : MonoBehaviour
                 jumpTimeCounter = jumpTime;
                 isJumping = true;
                 if (audioSource != null) audioSource.Play();
-               // animator.SetTrigger("jump");
+                animator.SetTrigger("jump");
 
             }
             if (Input.GetButton("Jump") && isJumping)

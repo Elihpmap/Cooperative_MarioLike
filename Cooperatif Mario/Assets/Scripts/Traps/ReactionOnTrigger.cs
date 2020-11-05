@@ -5,7 +5,7 @@ using UnityEngine;
 public class ReactionOnTrigger : MonoBehaviour
 {
     public GameObject m_gameobject;
-    public SpriteRenderer Sprite;
+    public GameObject Sprite;
     public bool willAppear, willDisAppear, goToTarget;
     public bool willReAppear, willReDisAppear;
     public float speed = 0;
@@ -34,16 +34,16 @@ public class ReactionOnTrigger : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             if (goToTarget) move = true;
-            if (willAppear) Sprite.enabled = true;
-            if (willDisAppear) Sprite.enabled = false;
+            if (willAppear) Sprite.SetActive(true);
+            if (willDisAppear) Sprite.SetActive(false);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            if (willReAppear) Sprite.enabled = true;
-            if (willReDisAppear) Sprite.enabled = false;
+            if (willReAppear) Sprite.SetActive(true);
+            if (willReDisAppear) Sprite.SetActive(false);
         }
     }
 }

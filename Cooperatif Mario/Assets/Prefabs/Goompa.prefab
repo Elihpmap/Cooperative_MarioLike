@@ -40,7 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6413812239781466774}
   - component: {fileID: 6413812239781466793}
-  m_Layer: 8
+  m_Layer: 14
   m_Name: Plateform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6413812239781466775}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.545, z: 0}
+  m_LocalPosition: {x: 0, y: 0.483, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6413812240479952267}
@@ -70,7 +70,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 6413812239781466775}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f77ea20f3962bab449a6db76e310543f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -85,7 +85,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.88, y: 0.35}
+  m_Size: {x: 0.88, y: 0.28}
   m_EdgeRadius: 0
 --- !u!1 &6413812239819836142
 GameObject:
@@ -133,10 +133,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentToDestroy: {fileID: 6413812240479952264}
   otherToDestroy:
-  - {fileID: 6413812241365078733}
-  - {fileID: 6440320260967560250}
   - {fileID: 6413812239781466775}
+  instantToDestroy:
+  - {fileID: 6413812241365078733}
   - {fileID: 6413812240421074654}
+  - {fileID: 6440320260967560250}
 --- !u!61 &6413812239819836129
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -173,6 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6413812239860594194}
   - component: {fileID: 6413812239860594197}
+  - component: {fileID: 6388088088491275487}
   m_Layer: 0
   m_Name: MonsterSprite
   m_TagString: Untagged
@@ -189,7 +191,7 @@ Transform:
   m_GameObject: {fileID: 6413812239860594195}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7, y: 7, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6413812240135956252}
   m_RootOrder: 0
@@ -234,7 +236,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: cf04ef7a0413be943bbbca7ee1884096, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -245,6 +247,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &6388088088491275487
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6413812239860594195}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8a5745b3ce54c62438ea508eb76c6510, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6413812240135956253
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,7 +308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6413812240421074641}
   - component: {fileID: 6413812240421074640}
-  m_Layer: 9
+  m_Layer: 13
   m_Name: MonsterCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -345,7 +366,7 @@ GameObject:
   - component: {fileID: 6413812240479952267}
   - component: {fileID: 6413812240479952266}
   m_Layer: 0
-  m_Name: Monster
+  m_Name: Goompa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -459,7 +480,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.82, y: 0.84}
   m_EdgeRadius: 0
 --- !u!1 &6440320260967560250
 GameObject:
