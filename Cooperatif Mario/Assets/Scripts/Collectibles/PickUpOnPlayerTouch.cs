@@ -45,12 +45,12 @@ public class PickUpOnPlayerTouch : MonoBehaviour
 
             foreach (GameObject go in toSemiDirectDestroy)
             {
-                Destroy(go, 0.1f);
+                Destroy(go, 0.0f);
             }
 
             // launch pickup animation;
 
-            Destroy(parentToDestroy, 1f);
+            Destroy(parentToDestroy, 0f);
 
             Destroy(this.gameObject);
 
