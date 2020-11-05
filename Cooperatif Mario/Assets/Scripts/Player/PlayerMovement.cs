@@ -65,7 +65,7 @@ public class PlayerMovement : MonoBehaviour
             m_Rigidbody2D.velocity = new Vector2(move * speed, m_Rigidbody2D.velocity.y);
         }
         spriteRenderer.flipX = (move > 0.1) ? false : (move < -0.1) ? true : spriteRenderer.flipX;
-       animator.SetFloat("velocityX", Mathf.Abs(move));
+       animator.SetFloat("velocity", Mathf.Abs(move));
     }
 
     private void JumpController()
