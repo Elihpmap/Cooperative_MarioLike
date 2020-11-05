@@ -5,12 +5,16 @@ using UnityEngine;
 public class GombaFall : MonoBehaviour
 {
     public GameObject[] Goombas;
-
+    private bool alreadyFall = false;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        foreach(GameObject goomba in Goombas)
+        if (collision.gameObject.tag == "Player" && !alreadyFall)
         {
-            goomba.GetComponentInChildren<Rigidbody2D>().isKinematic = false;
+            foreach (GameObject goomba in Goombas)
+            {
+                goomba.GetComponentInChildren<Rigidbody2D>().isKinematic = false;
+            }
+            alreadyFall = true;
         }
     }
 }

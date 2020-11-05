@@ -10,11 +10,12 @@ public class PauseGestion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            isPaused = !isPaused;
-            UIPause.SetActive(!UIPause.activeSelf);
-            Time.timeScale = isPaused? 0 : 1;
-        }   
+        if (isPaused || !GameOverGestion.alreadyDead)
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                isPaused = !isPaused;
+                UIPause.SetActive(!UIPause.activeSelf);
+                Time.timeScale = isPaused ? 0 : 1;
+            }
     }
 }
