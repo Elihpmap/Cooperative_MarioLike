@@ -446,6 +446,10 @@ PrefabInstance:
       propertyPath: m_Rigidbody2D
       value: 
       objectReference: {fileID: 5622401891415330987}
+    - target: {fileID: 3357187176582544348, guid: b9bf2bf644d1cca4280c7b8b915723b7, type: 3}
+      propertyPath: JumpForce
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4553887155915264006, guid: b9bf2bf644d1cca4280c7b8b915723b7, type: 3}
       propertyPath: m_Name
       value: JumpGestion

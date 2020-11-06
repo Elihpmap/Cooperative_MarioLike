@@ -13,6 +13,7 @@ public class ClicButton : MonoBehaviour
 
     public void TurnOffPause(GameObject UI)
     {
+        PauseGestion.isPaused = false;
         Time.timeScale = 1;
         UI.SetActive(false);
     }

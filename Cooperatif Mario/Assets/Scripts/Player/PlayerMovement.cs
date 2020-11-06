@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpTimeCounter;
     //Distance du raycat pour savoir si le joueur touche le sol (= 0.55 environ)
     public float raycast = 1.02f, raycastecart = 0.5f;
-
+    public bool invertControl;
     /*
     // Particules lors de l'atterissage
     public Animator particlesAnimator;
@@ -36,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        invertControl = false;
         canMove = true;
         isJumping = false;
         m_Rigidbody2D = this.GetComponent<Rigidbody2D>();
@@ -64,6 +65,7 @@ public class PlayerMovement : MonoBehaviour
         if (canMove)
         {
             move = Input.GetAxis("Horizontal");
+            if (invertControl) move *= -1;
             m_Rigidbody2D.velocity = new Vector2(move * speed, m_Rigidbody2D.velocity.y);
         }
         spriteRenderer.flipX = (move > 0.1) ? false : (move < -0.1) ? true : spriteRenderer.flipX;
