@@ -15,6 +15,8 @@ public class VictoryTrigger : MonoBehaviour
             collision.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             collision.gameObject.GetComponent<Animator>().SetTrigger("Victory");
             StartCoroutine("VictoryDisplay");
+
+            AkSoundEngine.PostEvent("Play_WIN_MUSIC_120_BPM", gameObject);
         }
     }
 

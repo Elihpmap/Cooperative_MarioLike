@@ -20,7 +20,11 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 4fd8b003982760469869275620efc9f0
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585969431734065705
+=======
+    m_lastTime: -8585969433061470263
+>>>>>>> main
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -30,7 +34,11 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 9aee373fdf897943ad5e5a84186cac4b
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585969431735940259
+=======
+    m_lastTime: -8585969433069259104
+>>>>>>> main
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -49,7 +57,11 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 13021a0eb9083840b68803e653e9292a
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585969431734221917
+=======
+    m_lastTime: -8585969433061571124
+>>>>>>> main
     List:
     - name: MAIN
       guid: 32e3b8061dcbdd43bbb3573aa7455a4c
@@ -68,7 +80,11 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 2c4889941ebb634b9029cfbea2449292
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585969431736096476
+=======
+    m_lastTime: -8585969433071551101
+>>>>>>> main
     List:
     - name: Play_ALIEN_01_DEATH
       guid: 146a319936da334c86addc000797f8cb
@@ -366,7 +382,11 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 052b9ba6ec97cd46858b8189bfa02a25
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585969431736096476
+=======
+    m_lastTime: -8585969433071541112
+>>>>>>> main
     List:
     - name: Music_RTPC
       guid: 5879a7cabedfd24e8d0dae4a516699c3
@@ -385,7 +405,11 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 28beb8e25dfe934d812c38fe74d8a7f5
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585969431734221917
+=======
+    m_lastTime: -8585969433061490649
+>>>>>>> main
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -395,7 +419,11 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: e72ae92021771c46932267089b3a6e9c
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585969431734065705
+=======
+    m_lastTime: -8585969433061490649
+>>>>>>> main
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -405,10 +433,16 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 40b1c60cc4523c4dacc142b0b912e906
     GuidInternal: 
+<<<<<<< HEAD
     m_lastTime: -8585969431734065705
+=======
+    m_lastTime: -8585969433061470263
+>>>>>>> main
     List: []
   ExpandedItems:
   - /Cooperatif Mario_WwiseProject
+  - /Cooperatif Mario_WwiseProject/Events
+  - /Cooperatif Mario_WwiseProject/Events/Default Work Unit
   - /Cooperatif Mario_WwiseProject/SoundBanks
   - /Cooperatif Mario_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
