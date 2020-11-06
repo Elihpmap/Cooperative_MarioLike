@@ -26,6 +26,7 @@ public class PlayerState : MonoBehaviour
     public void ShieldDown()
     {
         IsPowerUpped = false;
+        AkSoundEngine.PostEvent("Play_SHIELD_LOST", gameObject);
         Shield.GetComponent<Animator>().SetTrigger("ShieldDown");
         StartCoroutine("CooldownBeforeNextHit",delay);
     }

@@ -21,6 +21,7 @@ public class DestroyOnTouch : MonoBehaviour
                 Destroy(go, 0.2f);
             }
 
+            AkSoundEngine.PostEvent("Play_ALIEN_01_DEATH", gameObject);
             Destroy(parentToDestroy, 1f);
 
         }

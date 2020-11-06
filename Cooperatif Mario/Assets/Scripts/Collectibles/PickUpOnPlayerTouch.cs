@@ -28,10 +28,12 @@ public class PickUpOnPlayerTouch : MonoBehaviour
             {
                 case CollectibleType.Ore:
                     PlayerState.orePickedUp++;
+                    AkSoundEngine.PostEvent("Play_COIN_COLLECTED", gameObject);
                     break;
 
                 case CollectibleType.PowerUp:
                     player.ShieldUp();
+                    AkSoundEngine.PostEvent("Play_BONUS_TAKEN", gameObject);
                     break;
 
                 default:

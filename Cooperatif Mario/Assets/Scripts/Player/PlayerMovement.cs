@@ -90,7 +90,8 @@ public class PlayerMovement : MonoBehaviour
                 m_Rigidbody2D.velocity = Vector2.up * JumpForce;
                 jumpTimeCounter = jumpTime;
                 isJumping = true;
-                if (audioSource != null) audioSource.Play();
+                //if (audioSource != null) audioSource.Play();
+                AkSoundEngine.PostEvent("Play_JUMP", gameObject);
                 animator.SetTrigger("jump");
 
             }
