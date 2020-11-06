@@ -31,7 +31,7 @@ public class PickUpOnPlayerTouch : MonoBehaviour
                     break;
 
                 case CollectibleType.PowerUp:
-                    player.IsPowerUpped = true;
+                    player.ShieldUp();
                     break;
 
                 default:
