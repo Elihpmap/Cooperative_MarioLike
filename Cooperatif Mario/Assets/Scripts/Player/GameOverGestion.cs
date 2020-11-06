@@ -29,6 +29,7 @@ public class GameOverGestion : MonoBehaviour
 
                 Player.GetComponent<PlayerMovement>().canMove = false;
                 Player.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+                AkSoundEngine.PostEvent("Player_Death_Sequence", gameObject);
 
                 if (PlayerPrefs.GetInt("Score", 0) < (int)ProgressionChecker.percentageDone)
                     PlayerPrefs.SetInt("Score", (int)ProgressionChecker.percentageDone);
