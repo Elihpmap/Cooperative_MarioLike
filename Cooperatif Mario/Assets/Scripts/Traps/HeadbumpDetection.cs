@@ -49,6 +49,9 @@ public class HeadbumpDetection : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player" )
         {
+            //AkSoundEngine.PostEvent("Play_ITEM_OUT_OF_BOX", gameObject);
+            AkSoundEngine.PostEvent("Play_BOX_BROKEN", gameObject);
+
             if (superSonicSpeedTrigger)
             {
                 collision.gameObject.GetComponent<PlayerMovement>().speed = 24;

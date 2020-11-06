@@ -12,6 +12,8 @@ public class Spike : MonoBehaviour
             GameObject GO = GameObject.Find("GameOver");
             GO.GetComponent<GameOverGestion>().StartCoroutine("GameOverStart", 1f);
 
+            AkSoundEngine.PostEvent("Play_DEATH", gameObject);
+
         }
     }
 
