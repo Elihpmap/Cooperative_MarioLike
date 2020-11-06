@@ -11,16 +11,17 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1220906734">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2261599390">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="358457547">
+		<SoundBank Id="3161908922" Language="SFX" Hash="953701933">
 			<ObjectPath>\SoundBanks\Default Work Unit\MAIN</ObjectPath>
 			<ShortName>MAIN</ShortName>
 			<Path>MAIN.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2761450828" Name="MUSIC_LEVEL_SWITCH" ObjectPath="\Events\Default Work Unit\MUSIC_LEVEL_SWITCH" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="930167400" Name="Play_ALIEN_01_DEATH" ObjectPath="\Events\Default Work Unit\Play_ALIEN_01_DEATH" DurationType="OneShot" DurationMin="0.575782" DurationMax="0.575782">
 					<IncludedMemoryFiles>
 						<File Id="85273993" Language="SFX">
@@ -133,30 +134,9 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4187525903" Name="Play_MAIN_LEVEL_Part1_90_BPM" ObjectPath="\Events\Default Work Unit\Play_MAIN_LEVEL_Part1_90_BPM" DurationType="OneShot" DurationMin="42.333332" DurationMax="42.333332">
-					<IncludedMemoryFiles>
-						<File Id="779551547" Language="SFX">
-							<ShortName>MAIN-LEVEL_Part1_90_BPM.wav</ShortName>
-							<Path>SFX\MAIN-LEVEL_Part1_90_BPM_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="179200826" Name="Play_MAIN_LEVEL_Part2_90_BPM" ObjectPath="\Events\Default Work Unit\Play_MAIN_LEVEL_Part2_90_BPM" DurationType="OneShot" DurationMin="26.333334" DurationMax="26.333334">
-					<IncludedMemoryFiles>
-						<File Id="709928015" Language="SFX">
-							<ShortName>MAIN-LEVEL_Part2_90_BPM.wav</ShortName>
-							<Path>SFX\MAIN-LEVEL_Part2_90_BPM_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3070453356" Name="Play_MAIN_LEVEL_Part3_60_BPM" ObjectPath="\Events\Default Work Unit\Play_MAIN_LEVEL_Part3_60_BPM" DurationType="OneShot" DurationMin="21.000000" DurationMax="21.000000">
-					<IncludedMemoryFiles>
-						<File Id="339209133" Language="SFX">
-							<ShortName>MAIN-LEVEL_Part3_60_BPM.wav</ShortName>
-							<Path>SFX\MAIN-LEVEL_Part3_60_BPM_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
+				<Event Id="4187525903" Name="Play_MAIN_LEVEL_Part1_90_BPM" ObjectPath="\Events\Default Work Unit\Play_MAIN_LEVEL_Part1_90_BPM" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="179200826" Name="Play_MAIN_LEVEL_Part2_90_BPM" ObjectPath="\Events\Default Work Unit\Play_MAIN_LEVEL_Part2_90_BPM" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3070453356" Name="Play_MAIN_LEVEL_Part3_60_BPM" ObjectPath="\Events\Default Work Unit\Play_MAIN_LEVEL_Part3_60_BPM" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2447544080" Name="Play_MALUS_TAKEN" ObjectPath="\Events\Default Work Unit\Play_MALUS_TAKEN" DurationType="OneShot" DurationMin="0.631338" DurationMax="0.631338">
 					<IncludedMemoryFiles>
 						<File Id="439359908" Language="SFX">

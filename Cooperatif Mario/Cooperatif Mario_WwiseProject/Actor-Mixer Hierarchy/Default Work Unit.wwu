@@ -470,28 +470,6 @@
 								<ActiveSource Name="WIN_MUSIC_120_BPM" ID="{A1570E45-49CD-4FCF-8120-B9D338958E72}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="MAIN-LEVEL_Part3_60_BPM" ID="{9C966138-19A9-4F43-915A-2CEEC836B6CC}" ShortID="654958202">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="MAIN-LEVEL_Part3_60_BPM" ID="{C9E5DDF4-3E8B-4013-862C-C09FDC52B04B}">
-									<Language>SFX</Language>
-									<AudioFile>MAIN-LEVEL_Part3_60_BPM.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="339209133"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="MAIN-LEVEL_Part3_60_BPM" ID="{C9E5DDF4-3E8B-4013-862C-C09FDC52B04B}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="MENU_MUSIC_73_BPM" ID="{05B8C3AB-100A-4740-BC78-61ACAE0717EE}" ShortID="601000902">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -512,50 +490,6 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="MENU_MUSIC_73_BPM" ID="{0012CBCE-58A2-4FC5-B1D4-8FEC89AD5A28}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="MAIN-LEVEL_Part1_90_BPM" ID="{1E98F163-C302-4661-BB95-0370E1EC98C6}" ShortID="489625808">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="MAIN-LEVEL_Part1_90_BPM" ID="{310A627D-EB30-4444-88E8-42E2C466EF2F}">
-									<Language>SFX</Language>
-									<AudioFile>MAIN-LEVEL_Part1_90_BPM.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="779551547"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="MAIN-LEVEL_Part1_90_BPM" ID="{310A627D-EB30-4444-88E8-42E2C466EF2F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="MAIN-LEVEL_Part2_90_BPM" ID="{532987E4-A032-4253-966E-42756D6D0FEC}" ShortID="117575518">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="MAIN-LEVEL_Part2_90_BPM" ID="{15AF0748-B9FD-449E-8FEA-6948B7E1B22E}">
-									<Language>SFX</Language>
-									<AudioFile>MAIN-LEVEL_Part2_90_BPM.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="709928015"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="MAIN-LEVEL_Part2_90_BPM" ID="{15AF0748-B9FD-449E-8FEA-6948B7E1B22E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

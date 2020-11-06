@@ -13,6 +13,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2438662231	Play_BONUS_TAKEN			\Default Work Unit\Play_BONUS_TAKEN	
 	2447544080	Play_MALUS_TAKEN			\Default Work Unit\Play_MALUS_TAKEN	
 	2509562587	Play_BOX_BROKEN			\Default Work Unit\Play_BOX_BROKEN	
+	2761450828	MUSIC_LEVEL_SWITCH			\Default Work Unit\MUSIC_LEVEL_SWITCH	
 	2781117190	Play_CAVE_ENTER			\Default Work Unit\Play_CAVE_ENTER	
 	2793945569	Play_COIN_COLLECTED			\Default Work Unit\Play_COIN_COLLECTED	
 	3070453356	Play_MAIN_LEVEL_Part3_60_BPM			\Default Work Unit\Play_MAIN_LEVEL_Part3_60_BPM	
@@ -30,7 +31,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	86470443	GAME_OVER	C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\SFX\GAME_OVER_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\PLAYER_DEATH\GAME_OVER		83540
 	237512298	CAVE_GET-OUT	C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\SFX\CAVE_GET-OUT_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\CAVE_GET-OUT		17116
 	293168522	CAVE_ENTER	C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\SFX\CAVE_ENTER_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\CAVE_ENTER		17846
-	339209133	MAIN-LEVEL_Part3_60_BPM	C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\SFX\MAIN-LEVEL_Part3_60_BPM_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MAIN-LEVEL_Part3_60_BPM		3704464
 	369709492	MENU_BUTTON_HOVER	C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\SFX\MENU_BUTTON_HOVER_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\MENU_BUTTON_HOVER		12972
 	431405618	DEATH	C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\SFX\DEATH_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\PLAYER_DEATH\DEATH		166762
 	439359908	MALUS_TAKEN	C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\SFX\MALUS_TAKEN_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\MALUS_TAKEN		55748
@@ -39,9 +39,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	649936737	COIN_COLLECTED	C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\SFX\COIN_COLLECTED_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\COIN_COLLECTED		25870
 	650512671	ALIEN_02_PRESENCE	C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\SFX\ALIEN_02_PRESENCE_35B19F09.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\ALIEN_02_PRESENCE		150214
 	651057979	BOX_BROKEN	C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\SFX\BOX_BROKEN_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\BOX_BROKEN		25202
-	709928015	MAIN-LEVEL_Part2_90_BPM	C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\SFX\MAIN-LEVEL_Part2_90_BPM_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MAIN-LEVEL_Part2_90_BPM		4645264
 	722932851	BONUS_TAKEN	C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\SFX\BONUS_TAKEN_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\BONUS_TAKEN		39446
-	779551547	MAIN-LEVEL_Part1_90_BPM	C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\SFX\MAIN-LEVEL_Part1_90_BPM_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MAIN-LEVEL_Part1_90_BPM		7467664
 	830164480	FIREBALL	C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\SFX\FIREBALL_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\FIREBALL		73652
 	866426456	ALIEN_01_PRESENCE	C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\SFX\ALIEN_01_PRESENCE_FD93A37C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\ALIEN_01_PRESENCE		154936
 	873891123	JUMP	C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\SFX\JUMP_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\JUMP		24166

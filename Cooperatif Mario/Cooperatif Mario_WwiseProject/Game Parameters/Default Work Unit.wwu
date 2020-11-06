@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{A69B2B05-97EC-46CD-858B-8189BFA02A25}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="Music_RTPC" ID="{CAA77958-DFBE-4ED2-8D0D-AE4A516699C3}"/>
+				<GameParameter Name="TEST_PAMPHILE" ID="{CD18570E-288F-46D1-BCD5-7387C4908E48}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -3,7 +3,7 @@
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{9035F717-3311-4E5D-93D5-1624339BFA92}" PersistMode="Standalone">
 			<ChildrenList>
-				<MusicPlaylistContainer Name="PLAYLIST" ID="{1205C60A-F18B-42D6-B25A-D675C5EDAA07}" ShortID="124031486">
+				<MusicSwitchContainer Name="MUSIC-LEVEL_SWITCH" ID="{7733794C-6D42-4BEE-94D8-7A2259366093}" ShortID="156087949">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
@@ -13,9 +13,9 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="IM_CAVE" ID="{F617C897-804A-4127-A305-97DB8473736C}" ShortID="943365941">
+						<MusicSegment Name="MAIN-LEVEL_Part1_90_BPM" ID="{602FED8E-2315-416C-B742-8288333F065E}" ShortID="968802012">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="26052.6303854875"/>
+								<Property Name="EndPosition" Type="Real64" Value="42333.3333333333"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -26,23 +26,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="IM_CAVE_BASS_114_BPM" ID="{B497F28B-995A-4172-8FE6-2BE44B9F5933}" ShortID="643022904">
+								<MusicTrack Name="MAIN-LEVEL_Part1_90_BPM" ID="{9D294B20-EB45-411C-B4EA-6B6C9DB59A10}" ShortID="142543016">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="IM_CAVE_BASS_114_BPM" ID="{E8C963CF-5524-450D-8893-512530CAE884}">
+										<AudioFileSource Name="MAIN-LEVEL_Part1_90_BPM" ID="{D9CED6BB-FC49-40BD-9045-2B32AB995348}">
 											<Language>SFX</Language>
-											<AudioFile>IM_CAVE_BASS_114_BPM.wav</AudioFile>
+											<AudioFile>MAIN-LEVEL_Part1_90_BPM.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="650300860"/>
+												<MediaID ID="779551547"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{51F3241C-F7F9-45DE-B389-8C54EDAFBBFA}">
+										<MusicTransition Name="Root" ID="{26776646-DF82-409A-AC8B-BF2FEAAB5D7B}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -50,366 +50,15 @@
 										</MusicTransition>
 									</TransitionList>
 									<SequenceList>
-										<MusicTrackSequence Name="" ID="{D4145ED3-C030-4B40-B059-A50C0DAA7297}">
+										<MusicTrackSequence Name="" ID="{79D16171-0958-4375-BA68-FF2B35645FA5}">
 											<ClipList>
-												<MusicClip Name="IM_CAVE_BASS_114_BPM" ID="{7DBBD6A3-C7B7-4014-9A8B-A1E4241CA9AF}">
+												<MusicClip Name="MAIN-LEVEL_Part1_90_BPM" ID="{0BE70F93-EBD6-4124-8E5F-D1A807AA2C1E}">
 													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="26052.6303854875"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="42333.3333333333"/>
 														<Property Name="FadeInMode" Type="int16" Value="0"/>
 														<Property Name="FadeOutMode" Type="int16" Value="0"/>
 													</PropertyList>
-													<AudioSourceRef Name="IM_CAVE_BASS_114_BPM" ID="{E8C963CF-5524-450D-8893-512530CAE884}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-								<MusicTrack Name="IM_CAVE_KK HH_114_BPM" ID="{12F430E1-A323-46C1-B0E4-C1BAB99BBB1F}" ShortID="868562758">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{24FF4A72-3691-472C-BD91-71489CB42472}" ShortID="449138742">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Music_RTPC" ID="{CAA77958-DFBE-4ED2-8D0D-AE4A516699C3}" WorkUnitID="{A69B2B05-97EC-46CD-858B-8189BFA02A25}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{135401EC-3220-4F23-84F6-E8A7C899CCE5}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-																<SegmentShape>Log3</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>0.001</XPos>
-																<YPos>11.72531</YPos>
-																<Flags>0</Flags>
-																<SegmentShape>Exp3</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>11.83574</XPos>
-																<YPos>4.9904</YPos>
-																<Flags>0</Flags>
-																<SegmentShape>Log3</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>24.75845</XPos>
-																<YPos>-2.96125</YPos>
-																<Flags>0</Flags>
-																<SegmentShape>Exp3</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>92.99517</XPos>
-																<YPos>-200</YPos>
-																<Flags>0</Flags>
-																<SegmentShape>Log3</SegmentShape>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="IM_CAVE_KK HH_114_BPM" ID="{38D26155-6538-4FB7-BE57-42E9E0546879}">
-											<Language>SFX</Language>
-											<AudioFile>IM_CAVE_KK HH_114_BPM.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="807360008"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{E53E02A1-2C54-477A-A12D-0FA05D3F7226}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{270DBE9D-F8FC-46B9-AEFD-E69D4745AB7F}">
-											<ClipList>
-												<MusicClip Name="IM_CAVE_KK HH_114_BPM" ID="{D83C8BCC-BB48-47E3-85DB-5CB239FA326F}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="26052.6303854875"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="IM_CAVE_KK HH_114_BPM" ID="{38D26155-6538-4FB7-BE57-42E9E0546879}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-								<MusicTrack Name="IM_CAVE_LD_114_BPM" ID="{C2D38B48-1880-47A1-A65E-11FA4D533BED}" ShortID="922602028">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<RTPCList>
-												<RTPC Name="" ID="{FBC11406-3655-4F74-8BA3-B09D29C28A30}" ShortID="102120223">
-													<ReferenceList>
-														<Reference Name="ControlInput">
-															<ObjectRef Name="Music_RTPC" ID="{CAA77958-DFBE-4ED2-8D0D-AE4A516699C3}" WorkUnitID="{A69B2B05-97EC-46CD-858B-8189BFA02A25}"/>
-														</Reference>
-													</ReferenceList>
-													<Curve Name="" ID="{E1919A1B-721E-4516-963A-BE091B354D5F}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>14.37198</XPos>
-																<YPos>6.436</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>25.72464</XPos>
-																<YPos>-2.10056</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>37.07729</XPos>
-																<YPos>-8.15502</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>72.58454</XPos>
-																<YPos>7.49393</YPos>
-																<Flags>0</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</RTPC>
-											</RTPCList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="IM_CAVE_LD_114_BPM" ID="{D6EB9683-E0E1-4A7B-9010-848A30828745}">
-											<Language>SFX</Language>
-											<AudioFile>IM_CAVE_LD_114_BPM.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="855677941"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{0C9A6B1D-7627-4C0E-855E-7E8ABF5A9A28}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{181774D7-5241-483E-896B-7A68BAE08BAD}">
-											<ClipList>
-												<MusicClip Name="IM_CAVE_LD_114_BPM" ID="{678C5B4E-C188-4A0E-A7F3-B7548F8B3A46}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="26052.6303854875"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="IM_CAVE_LD_114_BPM" ID="{D6EB9683-E0E1-4A7B-9010-848A30828745}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-								<MusicTrack Name="IM_CAVE_CHORDS_114_BPM" ID="{907435A0-9FA4-437C-AD2A-4DC943DC9143}" ShortID="90514041">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="IM_CAVE_CHORDS_114_BPM" ID="{D0E14CD7-538D-4445-82E1-C091B4FD1BC9}">
-											<Language>SFX</Language>
-											<AudioFile>IM_CAVE_CHORDS_114_BPM.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="402313034"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{D6F46928-FCAD-4247-B0F5-77AE47634689}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{8FA7C1CA-01DA-4A75-845B-980CBE8A02A4}">
-											<ClipList>
-												<MusicClip Name="IM_CAVE_CHORDS_114_BPM" ID="{81485AB2-1FBA-4C98-8D6B-8831028EE8F2}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="26052.6303854875"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="IM_CAVE_CHORDS_114_BPM" ID="{D0E14CD7-538D-4445-82E1-C091B4FD1BC9}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-								<MusicTrack Name="IM_CAVE_WN_114_BPM" ID="{5CE91B6A-D17E-47EE-A2AF-1CA5CC81B93C}" ShortID="359947428">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="IM_CAVE_WN_114_BPM" ID="{F44F041E-47CD-41D2-8C30-DF112AF391FA}">
-											<Language>SFX</Language>
-											<AudioFile>IM_CAVE_WN_114_BPM.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="473801986"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{EAED84BB-BF47-43A7-B7C0-BF657FE2DA99}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{033F4EF0-C205-405F-94C7-461DFD2B5DF3}">
-											<ClipList>
-												<MusicClip Name="IM_CAVE_WN_114_BPM" ID="{851E9D7F-E694-4F9A-B766-C92299A18B9A}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="26052.6303854875"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="IM_CAVE_WN_114_BPM" ID="{F44F041E-47CD-41D2-8C30-DF112AF391FA}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-								<MusicTrack Name="IM_CAVE_SNR_114_BPM" ID="{B00FB121-D956-4E1A-AFD4-110618CC2987}" ShortID="139153679">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="IM_CAVE_SNR_114_BPM" ID="{BC635BEE-8342-46FF-BD4A-02452302F24E}">
-											<Language>SFX</Language>
-											<AudioFile>IM_CAVE_SNR_114_BPM.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="380081880"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{3253711E-F217-41E8-8F0A-D12533E38AAF}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{D5C02494-A73A-44C9-8997-F989B60F0560}">
-											<ClipList>
-												<MusicClip Name="IM_CAVE_SNR_114_BPM" ID="{B7D53CBA-1CFE-4746-B5AC-6A97E2418825}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="26052.6303854875"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="IM_CAVE_SNR_114_BPM" ID="{BC635BEE-8342-46FF-BD4A-02452302F24E}"/>
-												</MusicClip>
-											</ClipList>
-										</MusicTrackSequence>
-									</SequenceList>
-								</MusicTrack>
-								<MusicTrack Name="IM_CAVE_RVB_114_BPM" ID="{0F63FFDC-5456-4883-93EB-238EDB010C57}" ShortID="370153250">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="IM_CAVE_RVB_114_BPM" ID="{9C446531-1973-4063-8AA5-B8EB252083FC}">
-											<Language>SFX</Language>
-											<AudioFile>IM_CAVE_RVB_114_BPM.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="510730987"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{276E6D72-8A73-4360-BDAA-A0CDD3D968D7}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<SequenceList>
-										<MusicTrackSequence Name="" ID="{7B0F2067-93F5-4AA6-8489-CA7D2144BCB1}">
-											<ClipList>
-												<MusicClip Name="IM_CAVE_RVB_114_BPM" ID="{146D8954-3DEF-4DED-9213-F0F4A61F570B}">
-													<PropertyList>
-														<Property Name="EndTrimOffset" Type="Real64" Value="26052.6303854875"/>
-														<Property Name="FadeInMode" Type="int16" Value="0"/>
-														<Property Name="FadeOutMode" Type="int16" Value="0"/>
-													</PropertyList>
-													<AudioSourceRef Name="IM_CAVE_RVB_114_BPM" ID="{9C446531-1973-4063-8AA5-B8EB252083FC}"/>
+													<AudioSourceRef Name="MAIN-LEVEL_Part1_90_BPM" ID="{D9CED6BB-FC49-40BD-9045-2B32AB995348}"/>
 												</MusicClip>
 											</ClipList>
 										</MusicTrackSequence>
@@ -417,42 +66,183 @@
 								</MusicTrack>
 							</ChildrenList>
 							<CueList>
-								<MusicCue Name="Entry Cue" ID="{9B26E277-4470-4BB5-B8A2-745DB90CB5AE}"/>
-								<MusicCue Name="Exit Cue" ID="{E6907348-1049-4DDC-B047-8C3212DDF5FE}">
+								<MusicCue Name="Entry Cue" ID="{F09DE348-61B4-480C-930D-1ACBF3585545}"/>
+								<MusicCue Name="Exit Cue" ID="{5332D796-200E-4DC8-823C-6BA9884FB00C}">
 									<PropertyList>
 										<Property Name="CueType" Type="int16" Value="1"/>
-										<Property Name="TimeMs" Type="Real64" Value="26052.6303854875"/>
+										<Property Name="TimeMs" Type="Real64" Value="42333.3333333333"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="MAIN-LEVEL_Part2_90_BPM" ID="{D21E63B6-6C20-4520-9DD1-29BE6D160735}" ShortID="101438510">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="26333.3333333333"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="MAIN-LEVEL_Part2_90_BPM" ID="{CCFB9DD5-E520-4B87-A61B-DAEF4DA49693}" ShortID="1012082279">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MAIN-LEVEL_Part2_90_BPM" ID="{F79222A9-322F-4EC6-B06A-593A9E094938}">
+											<Language>SFX</Language>
+											<AudioFile>MAIN-LEVEL_Part2_90_BPM.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="709928015"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A36FDEC1-043A-44BB-AE0E-5A9F80457BA9}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{3563B0FA-E6A8-48BE-88C9-DCED94600A12}">
+											<ClipList>
+												<MusicClip Name="MAIN-LEVEL_Part2_90_BPM" ID="{FDF9892D-9E2C-4AF2-8C34-63E1AD5022BE}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="26333.3333333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="MAIN-LEVEL_Part2_90_BPM" ID="{F79222A9-322F-4EC6-B06A-593A9E094938}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{7A116C3C-94D5-47F7-B794-E960AEA0D7EE}"/>
+								<MusicCue Name="Exit Cue" ID="{8C549EF0-22A4-4F61-A7FC-6491773178FD}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="26333.3333333333"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="MAIN-LEVEL_Part3_60_BPM" ID="{3F51355E-B8BB-465F-B139-A28C547B5157}" ShortID="89575167">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="21000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="MAIN-LEVEL_Part3_60_BPM" ID="{C4E900D8-651B-4A4E-B9F2-C6E081CAD9EB}" ShortID="276523899">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MAIN-LEVEL_Part3_60_BPM" ID="{28F1FFB4-35EB-4381-9374-066FCB5855AA}">
+											<Language>SFX</Language>
+											<AudioFile>MAIN-LEVEL_Part3_60_BPM.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="339209133"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{B1F77321-68BA-431D-B287-ECD773B74D1C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{27E753B4-AB29-481C-9750-EF5D3E007B15}">
+											<ClipList>
+												<MusicClip Name="MAIN-LEVEL_Part3_60_BPM" ID="{BF038FFE-96FA-477A-9612-781CAB963F0B}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="21000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="MAIN-LEVEL_Part3_60_BPM" ID="{28F1FFB4-35EB-4381-9374-066FCB5855AA}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{5AF09CD4-C354-4A70-BA4E-0CF37D5C0BEE}"/>
+								<MusicCue Name="Exit Cue" ID="{488FB184-4B81-4E4B-A52E-D877F6154055}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="21000"/>
 									</PropertyList>
 								</MusicCue>
 							</CueList>
 						</MusicSegment>
 					</ChildrenList>
 					<TransitionList>
-						<MusicTransition Name="Root" ID="{87947A66-DA9B-46C9-89A2-6E306D4EF8B1}">
+						<MusicTransition Name="Root" ID="{8536C26E-161A-4C15-A7CB-63889A8E5470}">
 							<PropertyList>
 								<Property Name="IsFolder" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<MusicTransition Name="Transition" ID="{3627888D-DB12-41F5-A9BB-758BAD6EDCFC}">
+								<MusicTransition Name="Transition" ID="{21C30396-793F-430E-85DF-18F50A42497A}">
 									<TransitionInfo/>
 								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
-					<Playlist>
-						<MusicPlaylistItem Name="" ID="{5F305D8F-82D8-4633-968B-E3F48636DA3D}" ShortID="42606878">
-							<ChildrenList>
-								<MusicPlaylistItem Name="" ID="{68AF044D-D06A-439D-91E8-AD0E83D6B6EB}" ShortID="1036864363">
-									<PropertyList>
-										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-									</PropertyList>
-									<SegmentRef Name="IM_CAVE" ID="{F617C897-804A-4127-A305-97DB8473736C}"/>
-								</MusicPlaylistItem>
-							</ChildrenList>
-						</MusicPlaylistItem>
-					</Playlist>
-				</MusicPlaylistContainer>
+					<ArgumentList>
+						<ArgumentRef Name="Level" ID="{E2BFA96F-F5EA-46F1-A22F-8CED14F65264}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="One" ID="{2957BCA5-1FFD-4516-9C23-B59F8FAB4CF9}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MAIN-LEVEL_Part1_90_BPM" ID="{602FED8E-2315-416C-B742-8288333F065E}" WorkUnitID="{9035F717-3311-4E5D-93D5-1624339BFA92}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Two" ID="{D556D68A-C050-4F15-8D45-49240FF8F3B1}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MAIN-LEVEL_Part2_90_BPM" ID="{D21E63B6-6C20-4520-9DD1-29BE6D160735}" WorkUnitID="{9035F717-3311-4E5D-93D5-1624339BFA92}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Three" ID="{A8DD2368-732D-4157-91D4-D579CC00FA0B}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="MAIN-LEVEL_Part3_60_BPM" ID="{3F51355E-B8BB-465F-B139-A28C547B5157}" WorkUnitID="{9035F717-3311-4E5D-93D5-1624339BFA92}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>
