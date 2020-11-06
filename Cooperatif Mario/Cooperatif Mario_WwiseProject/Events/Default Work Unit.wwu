@@ -267,6 +267,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="MUSIC_LEVEL_SWITCH" ID="{F209EA79-A3C6-4B91-BFA0-6759E208F7BF}">
+					<ChildrenList>
+						<Action Name="" ID="{06458B94-02BE-46EA-8535-3703B55791CF}" ShortID="508466535">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="20"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSIC-LEVEL_SWITCH" ID="{7733794C-6D42-4BEE-94D8-7A2259366093}" WorkUnitID="{9035F717-3311-4E5D-93D5-1624339BFA92}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

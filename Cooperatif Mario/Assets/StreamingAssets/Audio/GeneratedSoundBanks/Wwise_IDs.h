@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID MUSIC_LEVEL_SWITCH = 2761450828U;
         static const AkUniqueID PLAY_ALIEN_01_DEATH = 930167400U;
         static const AkUniqueID PLAY_ALIEN_01_PRESENCE = 3879726901U;
         static const AkUniqueID PLAY_ALIEN_02_PRESENCE = 610892652U;
@@ -39,9 +40,27 @@ namespace AK
         static const AkUniqueID PLAYER_DEATH_SEQUENCE = 2359245655U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace LEVEL
+        {
+            static const AkUniqueID GROUP = 2782712965U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID ONE = 1064933119U;
+                static const AkUniqueID THREE = 912956111U;
+                static const AkUniqueID TWO = 678209053U;
+            } // namespace STATE
+        } // namespace LEVEL
+
+    } // namespace STATES
+
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID MUSIC_RTPC = 267517120U;
+        static const AkUniqueID TEST_PAMPHILE = 1975585518U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
