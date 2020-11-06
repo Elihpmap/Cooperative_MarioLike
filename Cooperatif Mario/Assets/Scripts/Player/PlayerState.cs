@@ -8,13 +8,14 @@ public class PlayerState : MonoBehaviour
 {
     public bool IsPowerUpped = false;
     public GameObject Shield;
-    public int orePickedUp = 0;
+    public static int orePickedUp;
     public bool canBeTouch;
     public float delay = 1f;
 
     private void Start()
     {
         canBeTouch = true;
+        orePickedUp = 0;
     }
 
     public void ShieldUp()

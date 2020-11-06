@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ProgressionChecker : MonoBehaviour
 {
     public Transform beginning;
     public Transform end;
     public Transform player;
-
     public float totalHorizontalDistance;
     public float playerDistance;
     public static float percentageDone = 0;

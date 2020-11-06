@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameOverGestion : MonoBehaviour
 {
@@ -35,6 +36,8 @@ public class GameOverGestion : MonoBehaviour
 
                 yield return new WaitForSeconds(delay);
                 UIGameOver.SetActive(true);
+                Button but = UIGameOver.GetComponentInChildren<Button>();
+                if (but) but.Select();
             }
         }
 

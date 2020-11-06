@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 public class ClicButton : MonoBehaviour
 {
     
     public void LoadSceneMode(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+        
     }
 
     public void TurnOffPause(GameObject UI)
@@ -30,6 +32,8 @@ public class ClicButton : MonoBehaviour
     public void switchPanel(GameObject PanelToActiv)
     {
         PanelToActiv.SetActive(true);
+        Button but = PanelToActiv.GetComponentInChildren<Button>();
+        if (but) but.Select();
         this.gameObject.SetActive(false);
     }
 }

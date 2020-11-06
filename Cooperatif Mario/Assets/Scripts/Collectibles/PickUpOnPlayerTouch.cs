@@ -27,7 +27,7 @@ public class PickUpOnPlayerTouch : MonoBehaviour
             switch(type)
             {
                 case CollectibleType.Ore:
-                    player.orePickedUp++;
+                    PlayerState.orePickedUp++;
                     break;
 
                 case CollectibleType.PowerUp:

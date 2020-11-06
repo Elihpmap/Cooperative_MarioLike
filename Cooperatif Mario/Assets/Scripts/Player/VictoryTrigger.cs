@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class VictoryTrigger : MonoBehaviour
 {
@@ -22,5 +23,7 @@ public class VictoryTrigger : MonoBehaviour
 
         yield return new WaitForSeconds(5);
         UIVictory.SetActive(true);
+        Button but = UIVictory.GetComponentInChildren<Button>();
+        if (but) but.Select();
     }
 }

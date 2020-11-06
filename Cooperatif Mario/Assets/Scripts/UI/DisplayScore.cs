@@ -9,7 +9,7 @@ public class DisplayScore : MonoBehaviour
     public TextMeshProUGUI scoreDisplay;
     public Slider slider;
     public bool bestScoreToDisplay;
-
+    public TextMeshProUGUI MoneyToDisplay;
     private void Update()
     {
         if (bestScoreToDisplay)
@@ -20,6 +20,10 @@ public class DisplayScore : MonoBehaviour
         if(slider != null)
         {
             slider.value = (int)ProgressionChecker.percentageDone;
+        }
+        if (MoneyToDisplay)
+        {
+            MoneyToDisplay.text = "x " + PlayerState.orePickedUp;
         }
     }
 }
