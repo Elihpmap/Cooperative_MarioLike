@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="4204904655">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="2630327178">
+			<ObjectPath>\SoundBanks\Default Work Unit\MAIN</ObjectPath>
+			<ShortName>MAIN</ShortName>
+			<Path>MAIN.bnk</Path>
+			<IncludedEvents>
+				<Event Id="930167400" Name="Play_ALIEN_01_DEATH" ObjectPath="\Events\Default Work Unit\Play_ALIEN_01_DEATH" DurationType="OneShot" DurationMin="0.575782" DurationMax="0.575782">
+					<IncludedMemoryFiles>
+						<File Id="85273993" Language="SFX">
+							<ShortName>ALIEN_01_DEATH.wav</ShortName>
+							<Path>SFX\ALIEN_01_DEATH_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3879726901" Name="Play_ALIEN_01_PRESENCE" ObjectPath="\Events\Default Work Unit\Play_ALIEN_01_PRESENCE" DurationType="OneShot" DurationMin="2.008912" DurationMax="2.008912">
+					<IncludedMemoryFiles>
+						<File Id="866426456" Language="SFX">
+							<ShortName>ALIEN_01_PRESENCE.wav</ShortName>
+							<Path>SFX\ALIEN_01_PRESENCE_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="610892652" Name="Play_ALIEN_02_PRESENCE" ObjectPath="\Events\Default Work Unit\Play_ALIEN_02_PRESENCE" DurationType="OneShot" DurationMin="1.959388" DurationMax="1.959388">
+					<IncludedMemoryFiles>
+						<File Id="650512671" Language="SFX">
+							<ShortName>ALIEN_02_PRESENCE.wav</ShortName>
+							<Path>SFX\ALIEN_02_PRESENCE_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3187757043" Name="Play_ALIEN_03_PRESENCE" ObjectPath="\Events\Default Work Unit\Play_ALIEN_03_PRESENCE" DurationType="OneShot" DurationMin="1.269547" DurationMax="1.269547">
+					<IncludedMemoryFiles>
+						<File Id="1072348200" Language="SFX">
+							<ShortName>ALIEN_03_PRESENCE.wav</ShortName>
+							<Path>SFX\ALIEN_03_PRESENCE_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2438662231" Name="Play_BONUS_TAKEN" ObjectPath="\Events\Default Work Unit\Play_BONUS_TAKEN" DurationType="OneShot" DurationMin="0.446508" DurationMax="0.446508">
+					<IncludedMemoryFiles>
+						<File Id="722932851" Language="SFX">
+							<ShortName>BONUS_TAKEN.wav</ShortName>
+							<Path>SFX\BONUS_TAKEN_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2509562587" Name="Play_BOX_BROKEN" ObjectPath="\Events\Default Work Unit\Play_BOX_BROKEN" DurationType="OneShot" DurationMin="0.285011" DurationMax="0.285011">
+					<IncludedMemoryFiles>
+						<File Id="651057979" Language="SFX">
+							<ShortName>BOX_BROKEN.wav</ShortName>
+							<Path>SFX\BOX_BROKEN_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2781117190" Name="Play_CAVE_ENTER" ObjectPath="\Events\Default Work Unit\Play_CAVE_ENTER" DurationType="OneShot" DurationMin="0.201610" DurationMax="0.201610">
+					<IncludedMemoryFiles>
+						<File Id="293168522" Language="SFX">
+							<ShortName>CAVE_ENTER.wav</ShortName>
+							<Path>SFX\CAVE_ENTER_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="999842029" Name="Play_CAVE_GET_OUT" ObjectPath="\Events\Default Work Unit\Play_CAVE_GET_OUT" DurationType="OneShot" DurationMin="0.193333" DurationMax="0.193333">
+					<IncludedMemoryFiles>
+						<File Id="237512298" Language="SFX">
+							<ShortName>CAVE_GET-OUT.wav</ShortName>
+							<Path>SFX\CAVE_GET-OUT_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2793945569" Name="Play_COIN_COLLECTED" ObjectPath="\Events\Default Work Unit\Play_COIN_COLLECTED" DurationType="OneShot" DurationMin="0.292585" DurationMax="0.292585">
+					<IncludedMemoryFiles>
+						<File Id="649936737" Language="SFX">
+							<ShortName>COIN_COLLECTED.wav</ShortName>
+							<Path>SFX\COIN_COLLECTED_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1172822028" Name="Play_DEATH" ObjectPath="\Events\Default Work Unit\Play_DEATH" DurationType="OneShot" DurationMin="1.890000" DurationMax="1.890000">
+					<IncludedMemoryFiles>
+						<File Id="431405618" Language="SFX">
+							<ShortName>DEATH.wav</ShortName>
+							<Path>SFX\DEATH_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="146533081" Name="Play_FIREBALL" ObjectPath="\Events\Default Work Unit\Play_FIREBALL" DurationType="OneShot" DurationMin="0.834331" DurationMax="0.834331">
+					<IncludedMemoryFiles>
+						<File Id="830164480" Language="SFX">
+							<ShortName>FIREBALL.wav</ShortName>
+							<Path>SFX\FIREBALL_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="725000905" Name="Play_GAME_OVER" ObjectPath="\Events\Default Work Unit\Play_GAME_OVER" DurationType="OneShot" DurationMin="0.946440" DurationMax="0.946440">
+					<IncludedMemoryFiles>
+						<File Id="86470443" Language="SFX">
+							<ShortName>GAME_OVER.wav</ShortName>
+							<Path>SFX\GAME_OVER_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="585886880" Name="Play_ITEM_OUT_OF_BOX" ObjectPath="\Events\Default Work Unit\Play_ITEM_OUT_OF_BOX" DurationType="OneShot" DurationMin="0.294853" DurationMax="0.294853">
+					<IncludedMemoryFiles>
+						<File Id="26734130" Language="SFX">
+							<ShortName>ITEM_OUT_OF_BOX.wav</ShortName>
+							<Path>SFX\ITEM_OUT_OF_BOX_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3689126666" Name="Play_JUMP" ObjectPath="\Events\Default Work Unit\Play_JUMP" DurationType="OneShot" DurationMin="0.273265" DurationMax="0.273265">
+					<IncludedMemoryFiles>
+						<File Id="873891123" Language="SFX">
+							<ShortName>JUMP.wav</ShortName>
+							<Path>SFX\JUMP_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4187525903" Name="Play_MAIN_LEVEL_Part1_90_BPM" ObjectPath="\Events\Default Work Unit\Play_MAIN_LEVEL_Part1_90_BPM" DurationType="OneShot" DurationMin="42.333332" DurationMax="42.333332">
+					<IncludedMemoryFiles>
+						<File Id="779551547" Language="SFX">
+							<ShortName>MAIN-LEVEL_Part1_90_BPM.wav</ShortName>
+							<Path>SFX\MAIN-LEVEL_Part1_90_BPM_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="179200826" Name="Play_MAIN_LEVEL_Part2_90_BPM" ObjectPath="\Events\Default Work Unit\Play_MAIN_LEVEL_Part2_90_BPM" DurationType="OneShot" DurationMin="26.333334" DurationMax="26.333334">
+					<IncludedMemoryFiles>
+						<File Id="709928015" Language="SFX">
+							<ShortName>MAIN-LEVEL_Part2_90_BPM.wav</ShortName>
+							<Path>SFX\MAIN-LEVEL_Part2_90_BPM_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3070453356" Name="Play_MAIN_LEVEL_Part3_60_BPM" ObjectPath="\Events\Default Work Unit\Play_MAIN_LEVEL_Part3_60_BPM" DurationType="OneShot" DurationMin="21.000000" DurationMax="21.000000">
+					<IncludedMemoryFiles>
+						<File Id="339209133" Language="SFX">
+							<ShortName>MAIN-LEVEL_Part3_60_BPM.wav</ShortName>
+							<Path>SFX\MAIN-LEVEL_Part3_60_BPM_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2447544080" Name="Play_MALUS_TAKEN" ObjectPath="\Events\Default Work Unit\Play_MALUS_TAKEN" DurationType="OneShot" DurationMin="0.631338" DurationMax="0.631338">
+					<IncludedMemoryFiles>
+						<File Id="439359908" Language="SFX">
+							<ShortName>MALUS_TAKEN.wav</ShortName>
+							<Path>SFX\MALUS_TAKEN_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="26585611" Name="Play_MENU_BUTTON_CLICK" ObjectPath="\Events\Default Work Unit\Play_MENU_BUTTON_CLICK" DurationType="OneShot" DurationMin="0.600295" DurationMax="0.600295">
+					<IncludedMemoryFiles>
+						<File Id="594133678" Language="SFX">
+							<ShortName>MENU_BUTTON_CLICK.wav</ShortName>
+							<Path>SFX\MENU_BUTTON_CLICK_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3305792757" Name="Play_MENU_BUTTON_HOVER" ObjectPath="\Events\Default Work Unit\Play_MENU_BUTTON_HOVER" DurationType="OneShot" DurationMin="0.146349" DurationMax="0.146349">
+					<IncludedMemoryFiles>
+						<File Id="369709492" Language="SFX">
+							<ShortName>MENU_BUTTON_HOVER.wav</ShortName>
+							<Path>SFX\MENU_BUTTON_HOVER_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3660942958" Name="Play_MENU_MUSIC_73_BPM" ObjectPath="\Events\Default Work Unit\Play_MENU_MUSIC_73_BPM" DurationType="OneShot" DurationMin="34.589046" DurationMax="34.589046">
+					<IncludedMemoryFiles>
+						<File Id="600994167" Language="SFX">
+							<ShortName>MENU_MUSIC_73_BPM.wav</ShortName>
+							<Path>SFX\MENU_MUSIC_73_BPM_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3865338654" Name="Play_SHIELD_LOST" ObjectPath="\Events\Default Work Unit\Play_SHIELD_LOST" DurationType="OneShot" DurationMin="0.554989" DurationMax="0.554989">
+					<IncludedMemoryFiles>
+						<File Id="1061952243" Language="SFX">
+							<ShortName>SHIELD_LOST.wav</ShortName>
+							<Path>SFX\SHIELD_LOST_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2381858584" Name="Play_WIN_MUSIC_120_BPM" ObjectPath="\Events\Default Work Unit\Play_WIN_MUSIC_120_BPM" DurationType="OneShot" DurationMin="23.000000" DurationMax="23.000000">
+					<IncludedMemoryFiles>
+						<File Id="942374627" Language="SFX">
+							<ShortName>WIN_MUSIC_120_BPM.wav</ShortName>
+							<Path>SFX\WIN_MUSIC_120_BPM_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
