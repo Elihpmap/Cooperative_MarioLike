@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpTimeCounter;
     //Distance du raycat pour savoir si le joueur touche le sol (= 0.55 environ)
     public float raycast = 1.02f, raycastecart = 0.5f;
-
+    public bool invertControl;
     /*
     // Particules lors de l'atterissage
     public Animator particlesAnimator;
@@ -36,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        invertControl = false;
         canMove = true;
         isJumping = false;
         m_Rigidbody2D = this.GetComponent<Rigidbody2D>();
@@ -47,9 +48,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        JumpController();
-        MovementController();
-
+        if (!PauseGestion.isPaused)
+        {
+            JumpController();
+            MovementController();
+        }
         if (m_Rigidbody2D.velocity.y < -MaxFallSpeed)
         {
             m_Rigidbody2D.velocity = new Vector3(m_Rigidbody2D.velocity.x, -MaxFallSpeed, m_Rigidbody2D.velocity.x);
@@ -62,6 +65,7 @@ public class PlayerMovement : MonoBehaviour
         if (canMove)
         {
             move = Input.GetAxis("Horizontal");
+            if (invertControl) move *= -1;
             m_Rigidbody2D.velocity = new Vector2(move * speed, m_Rigidbody2D.velocity.y);
         }
         spriteRenderer.flipX = (move > 0.1) ? false : (move < -0.1) ? true : spriteRenderer.flipX;
@@ -79,7 +83,7 @@ public class PlayerMovement : MonoBehaviour
         grounded = Physics2D.Raycast(this.transform.position + (Vector3.left * raycastecart), Vector2.down, raycast, mask) || Physics2D.Raycast(this.transform.position - (Vector3.left * raycastecart), Vector2.down, raycast, mask);
         animator.SetBool("grounded", grounded);
 
-        if ((canMove))// && !PauseGestion.isPaused)
+        if ((canMove))//&& !PauseGestion.isPaused)
         {
             if (Input.GetButtonDown("Jump") && grounded)
             {

@@ -7,17 +7,34 @@ using UnityEngine;
 public class PlayerState : MonoBehaviour
 {
     public bool IsPowerUpped = false;
-    public int orePickedUp = 0;
+    public GameObject Shield;
+    public static int orePickedUp;
+    public bool canBeTouch;
+    public float delay = 1f;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        canBeTouch = true;
+        orePickedUp = 0;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ShieldUp()
     {
-        
+        IsPowerUpped = true;
+        Shield.SetActive(true);
+    }
+    public void ShieldDown()
+    {
+        IsPowerUpped = false;
+        Shield.GetComponent<Animator>().SetTrigger("ShieldDown");
+        StartCoroutine("CooldownBeforeNextHit",delay);
+    }
+
+    public IEnumerator CooldownBeforeNextHit(float delay)
+    {
+        canBeTouch = false;
+        yield return new WaitForSeconds(delay);
+        Shield.SetActive(false);
+        canBeTouch = true;
     }
 }

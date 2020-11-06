@@ -9,10 +9,14 @@ public class HeadbumpDetection : MonoBehaviour
     public bool spawnAllAtFirstBump = false;
     public float spawnAllDelay = 0.2f;
 
+    public bool everybodyJumpTrigger;
+    public bool superSonicSpeedTrigger;
+    public bool inverseControlTrigger;
+
     bool startDelaySpawning = false;
     float timeLeft;
 
-    Vector3 spawnOffset = new Vector3(0f, 0.5f, 0f);
+    Vector3 spawnOffset = new Vector3(0f, 0.7f, 0f);
 
     // Start is called before the first frame update
     void Start()
@@ -43,20 +47,37 @@ public class HeadbumpDetection : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player" && prefabToSpawn.Count > 0)
+        if (collision.gameObject.tag == "Player" )
         {
-            if (!spawnAllAtFirstBump)
+            if (superSonicSpeedTrigger)
             {
-                Instantiate(prefabToSpawn[0], GetComponent<Transform>().position + spawnOffset, Quaternion.identity);
-                prefabToSpawn.RemoveAt(0);
+                collision.gameObject.GetComponent<PlayerMovement>().speed = 24;
+
             }
-            else
+            else if (everybodyJumpTrigger)
             {
-                Instantiate(prefabToSpawn[0], GetComponent<Transform>().position + spawnOffset, Quaternion.identity);
-                prefabToSpawn.RemoveAt(0);
-                startDelaySpawning = true;
-                timeLeft = spawnAllDelay;
+                EnemisJump.EverybodyJUMP = true;
             }
+            else if (inverseControlTrigger)
+            {
+                collision.gameObject.GetComponent<PlayerMovement>().invertControl = true;
+            }
+            else if( prefabToSpawn.Count > 0)
+            {
+                if (!spawnAllAtFirstBump)
+                {
+                    Instantiate(prefabToSpawn[0], GetComponent<Transform>().position + spawnOffset, Quaternion.identity);
+                    prefabToSpawn.RemoveAt(0);
+                }
+                else
+                {
+                    Instantiate(prefabToSpawn[0], GetComponent<Transform>().position + spawnOffset, Quaternion.identity);
+                    prefabToSpawn.RemoveAt(0);
+                    startDelaySpawning = true;
+                    timeLeft = spawnAllDelay;
+                }
+            }
+
         }
     }
 }
