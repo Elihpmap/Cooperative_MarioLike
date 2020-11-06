@@ -471,6 +471,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MAIN-LEVEL_Part3_60_BPM" ID="{9C966138-19A9-4F43-915A-2CEEC836B6CC}" ShortID="654958202">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
@@ -493,6 +496,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MENU_MUSIC_73_BPM" ID="{05B8C3AB-100A-4740-BC78-61ACAE0717EE}" ShortID="601000902">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
@@ -515,6 +521,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MAIN-LEVEL_Part1_90_BPM" ID="{1E98F163-C302-4661-BB95-0370E1EC98C6}" ShortID="489625808">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
@@ -537,6 +546,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="MAIN-LEVEL_Part2_90_BPM" ID="{532987E4-A032-4253-966E-42756D6D0FEC}" ShortID="117575518">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>

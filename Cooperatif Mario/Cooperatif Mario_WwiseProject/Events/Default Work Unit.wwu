@@ -6,6 +6,50 @@
 				<Event Name="Play_MAIN_LEVEL_Part1_90_BPM" ID="{06C0DF0F-3D3B-4747-9FB1-BAA6F57EB134}">
 					<ChildrenList>
 						<Action Name="" ID="{E56DC57D-5A7D-4EFA-9F66-2053D84F42FD}" ShortID="123810320">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN-LEVEL_Part1_90_BPM" ID="{1E98F163-C302-4661-BB95-0370E1EC98C6}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D7A231E8-D203-4884-8C15-90900643EA0E}" ShortID="111579422">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN-LEVEL_Part2_90_BPM" ID="{532987E4-A032-4253-966E-42756D6D0FEC}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0F1E202B-1E67-4A97-8A8B-C244865BD272}" ShortID="261327152">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN-LEVEL_Part3_60_BPM" ID="{9C966138-19A9-4F43-915A-2CEEC836B6CC}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{02147AEE-A4B7-43C5-9F14-FEDFC6F351D1}" ShortID="140346612">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MENU_MUSIC_73_BPM" ID="{05B8C3AB-100A-4740-BC78-61ACAE0717EE}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7FAADB0F-F9C3-4344-B172-FA513BC62DF0}" ShortID="852957131">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MAIN-LEVEL_Part1_90_BPM" ID="{1E98F163-C302-4661-BB95-0370E1EC98C6}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
@@ -16,6 +60,50 @@
 				</Event>
 				<Event Name="Play_MAIN_LEVEL_Part2_90_BPM" ID="{35157D65-597D-4F36-BF8E-4E8FE9A077A8}">
 					<ChildrenList>
+						<Action Name="" ID="{EC2C89FD-EA89-4EAC-B942-B5DA8C2654E5}" ShortID="746442302">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN-LEVEL_Part2_90_BPM" ID="{532987E4-A032-4253-966E-42756D6D0FEC}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C1C15518-CC36-4F3F-93F4-B506213D9791}" ShortID="88048763">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN-LEVEL_Part1_90_BPM" ID="{1E98F163-C302-4661-BB95-0370E1EC98C6}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3A05E420-FC86-4475-8CFE-B216C1296879}" ShortID="750499236">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MENU_MUSIC_73_BPM" ID="{05B8C3AB-100A-4740-BC78-61ACAE0717EE}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9F8BD0DE-11A3-4DF6-A1E4-B004DB1FBE08}" ShortID="358017823">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN-LEVEL_Part3_60_BPM" ID="{9C966138-19A9-4F43-915A-2CEEC836B6CC}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{A80A3C08-6974-4A89-9E32-F9308B7ACF9A}" ShortID="465258869">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -27,6 +115,50 @@
 				</Event>
 				<Event Name="Play_MAIN_LEVEL_Part3_60_BPM" ID="{89405D76-2C73-4571-A383-E531290B9339}">
 					<ChildrenList>
+						<Action Name="" ID="{8E5FE4F9-8724-454A-979C-4E63982B99DC}" ShortID="695570315">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MENU_MUSIC_73_BPM" ID="{05B8C3AB-100A-4740-BC78-61ACAE0717EE}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5F14AE09-0914-4F12-8342-FDE39260EC94}" ShortID="454903798">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN-LEVEL_Part2_90_BPM" ID="{532987E4-A032-4253-966E-42756D6D0FEC}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9C263BE0-A936-4D59-AD5A-6E227BF9EF0E}" ShortID="814758581">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN-LEVEL_Part3_60_BPM" ID="{9C966138-19A9-4F43-915A-2CEEC836B6CC}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1D8C4E22-EB5A-42DB-99A7-5C10461D9E5D}" ShortID="290969388">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN-LEVEL_Part1_90_BPM" ID="{1E98F163-C302-4661-BB95-0370E1EC98C6}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{0F587F5C-8E54-4843-919A-0BBC23671F45}" ShortID="995633296">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -38,6 +170,50 @@
 				</Event>
 				<Event Name="Play_MENU_MUSIC_73_BPM" ID="{513B2484-DBB0-40FD-B778-B818DB78B2AC}">
 					<ChildrenList>
+						<Action Name="" ID="{75962F91-EB84-42CC-AF82-9C29E37E5246}" ShortID="722645270">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MENU_MUSIC_73_BPM" ID="{05B8C3AB-100A-4740-BC78-61ACAE0717EE}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1E3C8FC3-A603-4D8E-AE19-8A0865BDBE84}" ShortID="618316679">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN-LEVEL_Part1_90_BPM" ID="{1E98F163-C302-4661-BB95-0370E1EC98C6}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{545E13C6-2ACE-4B15-9048-EB602E530CF0}" ShortID="356173962">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN-LEVEL_Part2_90_BPM" ID="{532987E4-A032-4253-966E-42756D6D0FEC}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C056A045-628A-40C8-BA28-011E3034E381}" ShortID="1048751647">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN-LEVEL_Part3_60_BPM" ID="{9C966138-19A9-4F43-915A-2CEEC836B6CC}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{91532DE8-63BA-4FCA-81D9-00BCBB95C6DF}" ShortID="906485440">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -262,6 +438,62 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="PLAYER_DEATH" ID="{A1536CE1-DA3B-4050-9C72-930D8943AFB2}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MAIN_LEVEL_Part1_90_BPM" ID="{3C23284A-05B2-4E29-B7F9-C25B9F0F0739}">
+					<ChildrenList>
+						<Action Name="" ID="{558DC330-5810-45E7-AA93-AFEF26C28144}" ShortID="572606781">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN-LEVEL_Part1_90_BPM" ID="{1E98F163-C302-4661-BB95-0370E1EC98C6}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MAIN_LEVEL_Part2_90_BPM" ID="{ECCBD30D-6846-43CF-A1CB-6FE1443D7586}">
+					<ChildrenList>
+						<Action Name="" ID="{71FA525C-C429-4F66-9C04-0C21D98AF36C}" ShortID="733738723">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN-LEVEL_Part2_90_BPM" ID="{532987E4-A032-4253-966E-42756D6D0FEC}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MAIN_LEVEL_Part3_60_BPM" ID="{A0731AE1-F26A-4705-9F1C-193550DFB754}">
+					<ChildrenList>
+						<Action Name="" ID="{E8E0A305-61C0-4AB9-9093-39A2DC224C46}" ShortID="326862655">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MAIN-LEVEL_Part3_60_BPM" ID="{9C966138-19A9-4F43-915A-2CEEC836B6CC}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MENU_MUSIC_73_BPM" ID="{69D3E542-7887-4411-AE45-8F7128C668F7}">
+					<ChildrenList>
+						<Action Name="" ID="{93CD90E0-6D43-4B62-B96C-A32EA5BA2C8C}" ShortID="36383555">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MENU_MUSIC_73_BPM" ID="{05B8C3AB-100A-4740-BC78-61ACAE0717EE}" WorkUnitID="{3DD137F9-1923-4D0A-ABE2-01C2054B10B1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

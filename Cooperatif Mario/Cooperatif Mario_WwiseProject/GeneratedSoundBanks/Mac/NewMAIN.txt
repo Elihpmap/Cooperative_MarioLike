@@ -1,0 +1,55 @@
+Event	ID	Name			Wwise Object Path	Notes
+	26585611	Play_MENU_BUTTON_CLICK			\Default Work Unit\Play_MENU_BUTTON_CLICK	
+	110082496	Stop_MAIN_LEVEL_Part2_90_BPM			\Default Work Unit\Stop_MAIN_LEVEL_Part2_90_BPM	
+	146533081	Play_FIREBALL			\Default Work Unit\Play_FIREBALL	
+	179200826	Play_MAIN_LEVEL_Part2_90_BPM			\Default Work Unit\Play_MAIN_LEVEL_Part2_90_BPM	
+	585886880	Play_ITEM_OUT_OF_BOX			\Default Work Unit\Play_ITEM_OUT_OF_BOX	
+	610892652	Play_ALIEN_02_PRESENCE			\Default Work Unit\Play_ALIEN_02_PRESENCE	
+	725000905	Play_GAME_OVER			\Default Work Unit\Play_GAME_OVER	
+	930167400	Play_ALIEN_01_DEATH			\Default Work Unit\Play_ALIEN_01_DEATH	
+	999842029	Play_CAVE_GET_OUT			\Default Work Unit\Play_CAVE_GET_OUT	
+	1172822028	Play_DEATH			\Default Work Unit\Play_DEATH	
+	2008467825	Stop_MAIN_LEVEL_Part1_90_BPM			\Default Work Unit\Stop_MAIN_LEVEL_Part1_90_BPM	
+	2359245655	Player_Death_Sequence			\Default Work Unit\Player_Death_Sequence	
+	2381858584	Play_WIN_MUSIC_120_BPM			\Default Work Unit\Play_WIN_MUSIC_120_BPM	
+	2438662231	Play_BONUS_TAKEN			\Default Work Unit\Play_BONUS_TAKEN	
+	2447544080	Play_MALUS_TAKEN			\Default Work Unit\Play_MALUS_TAKEN	
+	2509562587	Play_BOX_BROKEN			\Default Work Unit\Play_BOX_BROKEN	
+	2781117190	Play_CAVE_ENTER			\Default Work Unit\Play_CAVE_ENTER	
+	2793945569	Play_COIN_COLLECTED			\Default Work Unit\Play_COIN_COLLECTED	
+	3069831604	Stop_MENU_MUSIC_73_BPM			\Default Work Unit\Stop_MENU_MUSIC_73_BPM	
+	3070453356	Play_MAIN_LEVEL_Part3_60_BPM			\Default Work Unit\Play_MAIN_LEVEL_Part3_60_BPM	
+	3187757043	Play_ALIEN_03_PRESENCE			\Default Work Unit\Play_ALIEN_03_PRESENCE	
+	3305792757	Play_MENU_BUTTON_HOVER			\Default Work Unit\Play_MENU_BUTTON_HOVER	
+	3660942958	Play_MENU_MUSIC_73_BPM			\Default Work Unit\Play_MENU_MUSIC_73_BPM	
+	3689126666	Play_JUMP			\Default Work Unit\Play_JUMP	
+	3865338654	Play_SHIELD_LOST			\Default Work Unit\Play_SHIELD_LOST	
+	3879726901	Play_ALIEN_01_PRESENCE			\Default Work Unit\Play_ALIEN_01_PRESENCE	
+	3880373926	Stop_MAIN_LEVEL_Part3_60_BPM			\Default Work Unit\Stop_MAIN_LEVEL_Part3_60_BPM	
+	4187525903	Play_MAIN_LEVEL_Part1_90_BPM			\Default Work Unit\Play_MAIN_LEVEL_Part1_90_BPM	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	26734130	ITEM_OUT_OF_BOX	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\ITEM_OUT_OF_BOX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\ITEM_OUT_OF_BOX		26070
+	85273993	ALIEN_01_DEATH	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\ALIEN_01_DEATH_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\ALIEN_01_DEATH		50848
+	86470443	GAME_OVER	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\GAME_OVER_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\PLAYER_DEATH\GAME_OVER		83540
+	237512298	CAVE_GET-OUT	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\CAVE_GET-OUT_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\CAVE_GET-OUT		17116
+	293168522	CAVE_ENTER	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\CAVE_ENTER_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\CAVE_ENTER		17846
+	339209133	MAIN-LEVEL_Part3_60_BPM	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\MAIN-LEVEL_Part3_60_BPM_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MAIN-LEVEL_Part3_60_BPM		3704464
+	369709492	MENU_BUTTON_HOVER	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\MENU_BUTTON_HOVER_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\MENU_BUTTON_HOVER		12972
+	431405618	DEATH	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\DEATH_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\PLAYER_DEATH\DEATH		166762
+	439359908	MALUS_TAKEN	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\MALUS_TAKEN_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\MALUS_TAKEN		55748
+	594133678	MENU_BUTTON_CLICK	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\MENU_BUTTON_CLICK_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\MENU_BUTTON_CLICK		53010
+	600994167	MENU_MUSIC_73_BPM	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\MENU_MUSIC_73_BPM_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MENU_MUSIC_73_BPM		6101572
+	649936737	COIN_COLLECTED	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\COIN_COLLECTED_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\COIN_COLLECTED		25870
+	650512671	ALIEN_02_PRESENCE	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\ALIEN_02_PRESENCE_35B19F09.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\ALIEN_02_PRESENCE		150214
+	651057979	BOX_BROKEN	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\BOX_BROKEN_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\BOX_BROKEN		25202
+	709928015	MAIN-LEVEL_Part2_90_BPM	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\MAIN-LEVEL_Part2_90_BPM_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MAIN-LEVEL_Part2_90_BPM		4645264
+	722932851	BONUS_TAKEN	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\BONUS_TAKEN_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\BONUS_TAKEN		39446
+	779551547	MAIN-LEVEL_Part1_90_BPM	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\MAIN-LEVEL_Part1_90_BPM_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\MAIN-LEVEL_Part1_90_BPM		7467664
+	830164480	FIREBALL	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\FIREBALL_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\FIREBALL		73652
+	866426456	ALIEN_01_PRESENCE	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\ALIEN_01_PRESENCE_7651399E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\ALIEN_01_PRESENCE		154936
+	873891123	JUMP	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\JUMP_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\JUMP		24166
+	942374627	WIN_MUSIC_120_BPM	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\WIN_MUSIC_120_BPM_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MUSIC\WIN_MUSIC_120_BPM		4057264
+	1061952243	SHIELD_LOST	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\SHIELD_LOST_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SHIELD_LOST		49014
+	1072348200	ALIEN_03_PRESENCE	G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Mac\SFX\ALIEN_03_PRESENCE_532D3AB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\ALIEN_03_PRESENCE		109696
+

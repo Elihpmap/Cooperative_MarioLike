@@ -37,6 +37,10 @@ namespace AK
         static const AkUniqueID PLAY_SHIELD_LOST = 3865338654U;
         static const AkUniqueID PLAY_WIN_MUSIC_120_BPM = 2381858584U;
         static const AkUniqueID PLAYER_DEATH_SEQUENCE = 2359245655U;
+        static const AkUniqueID STOP_MAIN_LEVEL_PART1_90_BPM = 2008467825U;
+        static const AkUniqueID STOP_MAIN_LEVEL_PART2_90_BPM = 110082496U;
+        static const AkUniqueID STOP_MAIN_LEVEL_PART3_60_BPM = 3880373926U;
+        static const AkUniqueID STOP_MENU_MUSIC_73_BPM = 3069831604U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
@@ -47,7 +51,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID MAIN = 3161908922U;
+        static const AkUniqueID NEWMAIN = 3403396474U;
     } // namespace BANKS
 
     namespace BUSSES

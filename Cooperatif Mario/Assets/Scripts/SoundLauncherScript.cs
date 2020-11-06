@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SoundLauncherScript : MonoBehaviour
 {
-    public enum SoundEvent {Play_CAVE_ENTER, Play_CAVE_GET_OUT };
-    private string[] stringValue = { "Play_CAVE_ENTER", "Play_CAVE_GET_OUT" };
+    public enum SoundEvent {Music1, Music2, Music3, Play_CAVE_ENTER, Play_CAVE_GET_OUT };
+    private string[] stringValue = { "_MAIN_LEVEL_PART1_90_BPM", "_MAIN_LEVEL_PART2_90_BPM", "_MAIN_LEVEL_PART3_60_BPM", "_CAVE_ENTER", "_CAVE_GET_OUT" };
 
     public SoundEvent soundToPlay = SoundEvent.Play_CAVE_ENTER;
 
@@ -27,7 +27,7 @@ public class SoundLauncherScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        AkSoundEngine.PostEvent(stringValue[(int)soundToPlay], gameObject);
+        AkSoundEngine.PostEvent("Play" + stringValue[(int)soundToPlay], gameObject);
         foreach (GameObject go in toActivate)
         {
             go.SetActive(true);
@@ -38,4 +38,6 @@ public class SoundLauncherScript : MonoBehaviour
             go.SetActive(false);
         }
     }
+
+
 }

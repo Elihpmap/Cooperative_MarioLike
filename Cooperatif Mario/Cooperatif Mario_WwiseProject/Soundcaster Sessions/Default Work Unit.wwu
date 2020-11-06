@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{207FCB1D-5ECF-4D63-8B40-3914FE578582}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{207FCB1D-5ECF-4D63-8B40-3914FE578582}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{207FCB1D-5ECF-4D63-8B40-3914FE578582}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{AF3F9E67-34B2-4EA6-97B6-F5E669BE8129}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_MAIN_LEVEL_Part1_90_BPM" ID="{06C0DF0F-3D3B-4747-9FB1-BAA6F57EB134}" WorkUnitID="{9489482C-BB1E-4B63-9029-CFBEA2449292}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_MAIN_LEVEL_Part1_90_BPM" ID="{3C23284A-05B2-4E29-B7F9-C25B9F0F0739}" WorkUnitID="{9489482C-BB1E-4B63-9029-CFBEA2449292}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_MAIN_LEVEL_Part2_90_BPM" ID="{35157D65-597D-4F36-BF8E-4E8FE9A077A8}" WorkUnitID="{9489482C-BB1E-4B63-9029-CFBEA2449292}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_MAIN_LEVEL_Part2_90_BPM" ID="{ECCBD30D-6846-43CF-A1CB-6FE1443D7586}" WorkUnitID="{9489482C-BB1E-4B63-9029-CFBEA2449292}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Music_RTPC" ID="{CAA77958-DFBE-4ED2-8D0D-AE4A516699C3}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

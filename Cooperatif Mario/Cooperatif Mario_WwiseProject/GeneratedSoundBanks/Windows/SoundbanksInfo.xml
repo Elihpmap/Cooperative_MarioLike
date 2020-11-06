@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\ELE5f57934c3243e\Documents\ENJMIN\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>G:\Bureau\Cooperative_MarioLike\Cooperatif Mario\Cooperatif Mario_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,10 +16,10 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="358457547">
-			<ObjectPath>\SoundBanks\Default Work Unit\MAIN</ObjectPath>
-			<ShortName>MAIN</ShortName>
-			<Path>MAIN.bnk</Path>
+		<SoundBank Id="3403396474" Language="SFX" Hash="1740827734">
+			<ObjectPath>\SoundBanks\Default Work Unit\NewMAIN</ObjectPath>
+			<ShortName>NewMAIN</ShortName>
+			<Path>NewMAIN.bnk</Path>
 			<IncludedEvents>
 				<Event Id="930167400" Name="Play_ALIEN_01_DEATH" ObjectPath="\Events\Default Work Unit\Play_ALIEN_01_DEATH" DurationType="OneShot" DurationMin="0.575782" DurationMax="0.575782">
 					<IncludedMemoryFiles>
@@ -33,7 +33,7 @@
 					<IncludedMemoryFiles>
 						<File Id="866426456" Language="SFX">
 							<ShortName>ALIEN_01_PRESENCE.wav</ShortName>
-							<Path>SFX\ALIEN_01_PRESENCE_FD93A37C.wem</Path>
+							<Path>SFX\ALIEN_01_PRESENCE_7651399E.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -133,27 +133,27 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4187525903" Name="Play_MAIN_LEVEL_Part1_90_BPM" ObjectPath="\Events\Default Work Unit\Play_MAIN_LEVEL_Part1_90_BPM" DurationType="OneShot" DurationMin="42.333332" DurationMax="42.333332">
+				<Event Id="4187525903" Name="Play_MAIN_LEVEL_Part1_90_BPM" ObjectPath="\Events\Default Work Unit\Play_MAIN_LEVEL_Part1_90_BPM" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="779551547" Language="SFX">
 							<ShortName>MAIN-LEVEL_Part1_90_BPM.wav</ShortName>
-							<Path>SFX\MAIN-LEVEL_Part1_90_BPM_10C4C929.wem</Path>
+							<Path>SFX\MAIN-LEVEL_Part1_90_BPM_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="179200826" Name="Play_MAIN_LEVEL_Part2_90_BPM" ObjectPath="\Events\Default Work Unit\Play_MAIN_LEVEL_Part2_90_BPM" DurationType="OneShot" DurationMin="26.333334" DurationMax="26.333334">
+				<Event Id="179200826" Name="Play_MAIN_LEVEL_Part2_90_BPM" ObjectPath="\Events\Default Work Unit\Play_MAIN_LEVEL_Part2_90_BPM" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="709928015" Language="SFX">
 							<ShortName>MAIN-LEVEL_Part2_90_BPM.wav</ShortName>
-							<Path>SFX\MAIN-LEVEL_Part2_90_BPM_10C4C929.wem</Path>
+							<Path>SFX\MAIN-LEVEL_Part2_90_BPM_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3070453356" Name="Play_MAIN_LEVEL_Part3_60_BPM" ObjectPath="\Events\Default Work Unit\Play_MAIN_LEVEL_Part3_60_BPM" DurationType="OneShot" DurationMin="21.000000" DurationMax="21.000000">
+				<Event Id="3070453356" Name="Play_MAIN_LEVEL_Part3_60_BPM" ObjectPath="\Events\Default Work Unit\Play_MAIN_LEVEL_Part3_60_BPM" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="339209133" Language="SFX">
 							<ShortName>MAIN-LEVEL_Part3_60_BPM.wav</ShortName>
-							<Path>SFX\MAIN-LEVEL_Part3_60_BPM_10C4C929.wem</Path>
+							<Path>SFX\MAIN-LEVEL_Part3_60_BPM_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -181,11 +181,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3660942958" Name="Play_MENU_MUSIC_73_BPM" ObjectPath="\Events\Default Work Unit\Play_MENU_MUSIC_73_BPM" DurationType="OneShot" DurationMin="34.589046" DurationMax="34.589046">
+				<Event Id="3660942958" Name="Play_MENU_MUSIC_73_BPM" ObjectPath="\Events\Default Work Unit\Play_MENU_MUSIC_73_BPM" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="600994167" Language="SFX">
 							<ShortName>MENU_MUSIC_73_BPM.wav</ShortName>
-							<Path>SFX\MENU_MUSIC_73_BPM_10C4C929.wem</Path>
+							<Path>SFX\MENU_MUSIC_73_BPM_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -217,6 +217,10 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2008467825" Name="Stop_MAIN_LEVEL_Part1_90_BPM" ObjectPath="\Events\Default Work Unit\Stop_MAIN_LEVEL_Part1_90_BPM" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="110082496" Name="Stop_MAIN_LEVEL_Part2_90_BPM" ObjectPath="\Events\Default Work Unit\Stop_MAIN_LEVEL_Part2_90_BPM" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3880373926" Name="Stop_MAIN_LEVEL_Part3_60_BPM" ObjectPath="\Events\Default Work Unit\Stop_MAIN_LEVEL_Part3_60_BPM" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3069831604" Name="Stop_MENU_MUSIC_73_BPM" ObjectPath="\Events\Default Work Unit\Stop_MENU_MUSIC_73_BPM" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>

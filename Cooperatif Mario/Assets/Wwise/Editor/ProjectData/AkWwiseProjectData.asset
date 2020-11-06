@@ -49,7 +49,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 13021a0eb9083840b68803e653e9292a
     GuidInternal: 
-    m_lastTime: -8585969433061571124
+    m_lastTime: -8585969357417458223
     List:
     - name: MAIN
       guid: 32e3b8061dcbdd43bbb3573aa7455a4c
@@ -68,7 +68,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 2c4889941ebb634b9029cfbea2449292
     GuidInternal: 
-    m_lastTime: -8585969433071551101
+    m_lastTime: -8585969357417261325
     List:
     - name: Play_ALIEN_01_DEATH
       guid: 146a319936da334c86addc000797f8cb
@@ -358,6 +358,54 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_MAIN_LEVEL_Part1_90_BPM
+      guid: 4a28233cb205294eb7f9c25b9f0f0739
+      id: 2008467825
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_MAIN_LEVEL_Part1_90_BPM
+        ObjectType: 3
+      Path: Default Work Unit\Stop_MAIN_LEVEL_Part1_90_BPM
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_MAIN_LEVEL_Part2_90_BPM
+      guid: 0dd3cbec4668cf43a1cb6fe1443d7586
+      id: 110082496
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_MAIN_LEVEL_Part2_90_BPM
+        ObjectType: 3
+      Path: Default Work Unit\Stop_MAIN_LEVEL_Part2_90_BPM
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_MAIN_LEVEL_Part3_60_BPM
+      guid: e11a73a06af205479f1c193550dfb754
+      id: 3880373926
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_MAIN_LEVEL_Part3_60_BPM
+        ObjectType: 3
+      Path: Default Work Unit\Stop_MAIN_LEVEL_Part3_60_BPM
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_MENU_MUSIC_73_BPM
+      guid: 42e5d36987781144ae458f7128c668f7
+      id: 3069831604
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_MENU_MUSIC_73_BPM
+        ObjectType: 3
+      Path: Default Work Unit\Stop_MENU_MUSIC_73_BPM
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -366,7 +414,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 052b9ba6ec97cd46858b8189bfa02a25
     GuidInternal: 
-    m_lastTime: -8585969433071541112
+    m_lastTime: -8585969370194845740
     List:
     - name: Music_RTPC
       guid: 5879a7cabedfd24e8d0dae4a516699c3
@@ -385,7 +433,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 28beb8e25dfe934d812c38fe74d8a7f5
     GuidInternal: 
-    m_lastTime: -8585969433061490649
+    m_lastTime: -8585969370192165022
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -410,7 +458,6 @@ MonoBehaviour:
   ExpandedItems:
   - /Cooperatif Mario_WwiseProject
   - /Cooperatif Mario_WwiseProject/Events
-  - /Cooperatif Mario_WwiseProject/Events/Default Work Unit
   - /Cooperatif Mario_WwiseProject/SoundBanks
   - /Cooperatif Mario_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
