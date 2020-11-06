@@ -12,14 +12,385 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e314c61a15f9db479628edb723bf750, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 4fd8b003982760469869275620efc9f0
+    GuidInternal: 
+    m_lastTime: -8585970150050572109
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 9aee373fdf897943ad5e5a84186cac4b
+    GuidInternal: 
+    m_lastTime: -8585970150050710992
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 13021a0eb9083840b68803e653e9292a
+    GuidInternal: 
+    m_lastTime: -8585969527059886337
+    List:
+    - name: MAIN
+      guid: 32e3b8061dcbdd43bbb3573aa7455a4c
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MAIN
+        ObjectType: 7
+      Path: Default Work Unit\MAIN
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 2c4889941ebb634b9029cfbea2449292
+    GuidInternal: 
+    m_lastTime: -8585970139823275187
+    List:
+    - name: Play_ALIEN_01_DEATH
+      guid: 146a319936da334c86addc000797f8cb
+      id: 930167400
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_ALIEN_01_DEATH
+        ObjectType: 3
+      Path: Default Work Unit\Play_ALIEN_01_DEATH
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_ALIEN_01_PRESENCE
+      guid: 76c64b38d77bd74393f121a8b4afcad1
+      id: 3879726901
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_ALIEN_01_PRESENCE
+        ObjectType: 3
+      Path: Default Work Unit\Play_ALIEN_01_PRESENCE
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_ALIEN_02_PRESENCE
+      guid: a8727dcb8da28748b4f673b4a4d2c68e
+      id: 610892652
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_ALIEN_02_PRESENCE
+        ObjectType: 3
+      Path: Default Work Unit\Play_ALIEN_02_PRESENCE
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_ALIEN_03_PRESENCE
+      guid: 44377b8ab18f2d40b656884ba32b916f
+      id: 3187757043
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_ALIEN_03_PRESENCE
+        ObjectType: 3
+      Path: Default Work Unit\Play_ALIEN_03_PRESENCE
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_BONUS_TAKEN
+      guid: 6e9aad7c4b5f0e4498ead26d49560d3b
+      id: 2438662231
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_BONUS_TAKEN
+        ObjectType: 3
+      Path: Default Work Unit\Play_BONUS_TAKEN
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_BOX_BROKEN
+      guid: 9c68fab2f358254888253c97b9fa3597
+      id: 2509562587
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_BOX_BROKEN
+        ObjectType: 3
+      Path: Default Work Unit\Play_BOX_BROKEN
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_CAVE_ENTER
+      guid: a66ab3c72bf17e45b202bbe1780f536f
+      id: 2781117190
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_CAVE_ENTER
+        ObjectType: 3
+      Path: Default Work Unit\Play_CAVE_ENTER
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_CAVE_GET_OUT
+      guid: 9f7f6b14ff8f044fac93135cb7d357e0
+      id: 999842029
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_CAVE_GET_OUT
+        ObjectType: 3
+      Path: Default Work Unit\Play_CAVE_GET_OUT
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_COIN_COLLECTED
+      guid: 93338ad6f5974a43b83d9a42ba8e2de1
+      id: 2793945569
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_COIN_COLLECTED
+        ObjectType: 3
+      Path: Default Work Unit\Play_COIN_COLLECTED
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_DEATH
+      guid: e7bf9037fc64ed45980b3ac7dbc4c340
+      id: 1172822028
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_DEATH
+        ObjectType: 3
+      Path: Default Work Unit\Play_DEATH
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_FIREBALL
+      guid: 4f433b6eb9dd23448ec59061745a68ba
+      id: 146533081
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_FIREBALL
+        ObjectType: 3
+      Path: Default Work Unit\Play_FIREBALL
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GAME_OVER
+      guid: 5072ece2aa29904ebe990c9c0a727cd7
+      id: 725000905
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_GAME_OVER
+        ObjectType: 3
+      Path: Default Work Unit\Play_GAME_OVER
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_ITEM_OUT_OF_BOX
+      guid: 9429a15a03255546a9207d29f006449b
+      id: 585886880
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_ITEM_OUT_OF_BOX
+        ObjectType: 3
+      Path: Default Work Unit\Play_ITEM_OUT_OF_BOX
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_JUMP
+      guid: aeb1701881b29e428cafa317159bf473
+      id: 3689126666
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_JUMP
+        ObjectType: 3
+      Path: Default Work Unit\Play_JUMP
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MAIN_LEVEL_Part1_90_BPM
+      guid: 0fdfc0063b3d47479fb1baa6f57eb134
+      id: 4187525903
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_MAIN_LEVEL_Part1_90_BPM
+        ObjectType: 3
+      Path: Default Work Unit\Play_MAIN_LEVEL_Part1_90_BPM
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MAIN_LEVEL_Part2_90_BPM
+      guid: 657d15357d59364fbf8e4e8fe9a077a8
+      id: 179200826
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_MAIN_LEVEL_Part2_90_BPM
+        ObjectType: 3
+      Path: Default Work Unit\Play_MAIN_LEVEL_Part2_90_BPM
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MAIN_LEVEL_Part3_60_BPM
+      guid: 765d4089732c7145a383e531290b9339
+      id: 3070453356
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_MAIN_LEVEL_Part3_60_BPM
+        ObjectType: 3
+      Path: Default Work Unit\Play_MAIN_LEVEL_Part3_60_BPM
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MALUS_TAKEN
+      guid: 9db83608a8ec164b85ba1a403542b630
+      id: 2447544080
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_MALUS_TAKEN
+        ObjectType: 3
+      Path: Default Work Unit\Play_MALUS_TAKEN
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MENU_BUTTON_CLICK
+      guid: 9b79cfe5d61cd546b385f4bd5529a1b8
+      id: 26585611
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_MENU_BUTTON_CLICK
+        ObjectType: 3
+      Path: Default Work Unit\Play_MENU_BUTTON_CLICK
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MENU_BUTTON_HOVER
+      guid: 1bc04879d9b9d347a0129efb2ab3dbd5
+      id: 3305792757
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_MENU_BUTTON_HOVER
+        ObjectType: 3
+      Path: Default Work Unit\Play_MENU_BUTTON_HOVER
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MENU_MUSIC_73_BPM
+      guid: 84243b51b0dbfd40b778b818db78b2ac
+      id: 3660942958
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_MENU_MUSIC_73_BPM
+        ObjectType: 3
+      Path: Default Work Unit\Play_MENU_MUSIC_73_BPM
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SHIELD_LOST
+      guid: a72402ff71b9b84d93c5e49dfcd66d8e
+      id: 3865338654
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_SHIELD_LOST
+        ObjectType: 3
+      Path: Default Work Unit\Play_SHIELD_LOST
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_WIN_MUSIC_120_BPM
+      guid: 99628c8cf2025945b87b11e05c92a012
+      id: 2381858584
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_WIN_MUSIC_120_BPM
+        ObjectType: 3
+      Path: Default Work Unit\Play_WIN_MUSIC_120_BPM
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 052b9ba6ec97cd46858b8189bfa02a25
+    GuidInternal: 
+    m_lastTime: -8585970150050725876
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 28beb8e25dfe934d812c38fe74d8a7f5
+    GuidInternal: 
+    m_lastTime: -8585970150050585813
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: e72ae92021771c46932267089b3a6e9c
+    GuidInternal: 
+    m_lastTime: -8585970150050577071
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 40b1c60cc4523c4dacc142b0b912e906
+    GuidInternal: 
+    m_lastTime: -8585970150050577071
+    List: []
+  ExpandedItems:
+  - /Cooperatif Mario_WwiseProject
+  - /Cooperatif Mario_WwiseProject/Events
+  - /Cooperatif Mario_WwiseProject/Events/Default Work Unit
+  - /Cooperatif Mario_WwiseProject/SoundBanks
+  - /Cooperatif Mario_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
