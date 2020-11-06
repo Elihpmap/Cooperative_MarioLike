@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -9,7 +10,20 @@ public class ClicButton : MonoBehaviour
     
     public void LoadSceneMode(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        if(sceneName != "MainScene")
+        {
+            SceneManager.LoadScene(sceneName);
+        }
+        else
+        {
+            if (System.DateTime.Now.DayOfYear > PlayerPrefs.GetInt("DayOfYear", -1) || System.DateTime.Now.Year > PlayerPrefs.GetInt("Year", -1))
+            {
+                PlayerPrefs.SetInt("DayOfYear", System.DateTime.Now.DayOfYear);
+                PlayerPrefs.SetInt("Year", System.DateTime.Now.Year);
+
+                SceneManager.LoadScene(sceneName);
+            }
+        }
         
     }
 
