@@ -36,7 +36,13 @@ namespace AK
         static const AkUniqueID PLAY_MENU_MUSIC_73_BPM = 3660942958U;
         static const AkUniqueID PLAY_SHIELD_LOST = 3865338654U;
         static const AkUniqueID PLAY_WIN_MUSIC_120_BPM = 2381858584U;
+        static const AkUniqueID PLAYER_DEATH_SEQUENCE = 2359245655U;
     } // namespace EVENTS
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID MUSIC_RTPC = 267517120U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

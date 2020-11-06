@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="4204904655">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1220906734">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2630327178">
+		<SoundBank Id="3161908922" Language="SFX" Hash="358457547">
 			<ObjectPath>\SoundBanks\Default Work Unit\MAIN</ObjectPath>
 			<ShortName>MAIN</ShortName>
 			<Path>MAIN.bnk</Path>
@@ -29,27 +29,27 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3879726901" Name="Play_ALIEN_01_PRESENCE" ObjectPath="\Events\Default Work Unit\Play_ALIEN_01_PRESENCE" DurationType="OneShot" DurationMin="2.008912" DurationMax="2.008912">
+				<Event Id="3879726901" Name="Play_ALIEN_01_PRESENCE" ObjectPath="\Events\Default Work Unit\Play_ALIEN_01_PRESENCE" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="866426456" Language="SFX">
 							<ShortName>ALIEN_01_PRESENCE.wav</ShortName>
-							<Path>SFX\ALIEN_01_PRESENCE_10C4C929.wem</Path>
+							<Path>SFX\ALIEN_01_PRESENCE_FD93A37C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="610892652" Name="Play_ALIEN_02_PRESENCE" ObjectPath="\Events\Default Work Unit\Play_ALIEN_02_PRESENCE" DurationType="OneShot" DurationMin="1.959388" DurationMax="1.959388">
+				<Event Id="610892652" Name="Play_ALIEN_02_PRESENCE" ObjectPath="\Events\Default Work Unit\Play_ALIEN_02_PRESENCE" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="650512671" Language="SFX">
 							<ShortName>ALIEN_02_PRESENCE.wav</ShortName>
-							<Path>SFX\ALIEN_02_PRESENCE_10C4C929.wem</Path>
+							<Path>SFX\ALIEN_02_PRESENCE_35B19F09.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3187757043" Name="Play_ALIEN_03_PRESENCE" ObjectPath="\Events\Default Work Unit\Play_ALIEN_03_PRESENCE" DurationType="OneShot" DurationMin="1.269547" DurationMax="1.269547">
+				<Event Id="3187757043" Name="Play_ALIEN_03_PRESENCE" ObjectPath="\Events\Default Work Unit\Play_ALIEN_03_PRESENCE" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="1072348200" Language="SFX">
 							<ShortName>ALIEN_03_PRESENCE.wav</ShortName>
-							<Path>SFX\ALIEN_03_PRESENCE_10C4C929.wem</Path>
+							<Path>SFX\ALIEN_03_PRESENCE_532D3AB0.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -202,6 +202,18 @@
 						<File Id="942374627" Language="SFX">
 							<ShortName>WIN_MUSIC_120_BPM.wav</ShortName>
 							<Path>SFX\WIN_MUSIC_120_BPM_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2359245655" Name="Player_Death_Sequence" ObjectPath="\Events\Default Work Unit\Player_Death_Sequence" DurationType="OneShot" DurationMin="1.891440" DurationMax="1.891440">
+					<IncludedMemoryFiles>
+						<File Id="86470443" Language="SFX">
+							<ShortName>GAME_OVER.wav</ShortName>
+							<Path>SFX\GAME_OVER_10C4C929.wem</Path>
+						</File>
+						<File Id="431405618" Language="SFX">
+							<ShortName>DEATH.wav</ShortName>
+							<Path>SFX\DEATH_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

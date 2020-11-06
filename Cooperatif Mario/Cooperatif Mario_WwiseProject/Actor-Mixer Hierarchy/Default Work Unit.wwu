@@ -72,6 +72,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="ALIEN_03_PRESENCE" ID="{FC319846-F241-4F5F-BE88-56670F281BA6}" ShortID="603658257">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
@@ -82,6 +85,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="ALIEN_03_PRESENCE" ID="{DF4F0C1D-3A91-4CB6-B5B0-A209FD8A1633}">
+									<PropertyList>
+										<Property Name="TrimEnd" Type="Real64" Value="1.243"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>ALIEN_03_PRESENCE.wav</AudioFile>
 									<MediaIDList>
@@ -91,28 +97,6 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="ALIEN_03_PRESENCE" ID="{DF4F0C1D-3A91-4CB6-B5B0-A209FD8A1633}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="GAME_OVER" ID="{73B4BDFB-162A-4567-9F46-66C04D8D293D}" ShortID="511688752">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="GAME_OVER" ID="{73066E3B-2670-4200-BEBB-F884C0016EA8}">
-									<Language>SFX</Language>
-									<AudioFile>GAME_OVER.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="86470443"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="GAME_OVER" ID="{73066E3B-2670-4200-BEBB-F884C0016EA8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="JUMP" ID="{B1284495-1673-4F43-BE41-D550F0238611}" ShortID="1013637034">
@@ -182,6 +166,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="ALIEN_01_PRESENCE" ID="{934755B3-CFE8-45E6-8070-F424D2FE340B}" ShortID="812249693">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
@@ -192,6 +179,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="ALIEN_01_PRESENCE" ID="{0331BE45-AC58-4B50-91CD-F7C26C1240A3}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.00265027910900506"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.253"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>ALIEN_01_PRESENCE.wav</AudioFile>
 									<MediaIDList>
@@ -204,6 +196,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="ALIEN_02_PRESENCE" ID="{A82E105E-4399-4C75-BBBF-61BC0E7A678C}" ShortID="827143241">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
@@ -214,6 +209,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="ALIEN_02_PRESENCE" ID="{71E15F91-36FC-4CAB-8FC2-A928E92FE7CC}">
+									<PropertyList>
+										<Property Name="TrimBegin" Type="Real64" Value="0.257"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>ALIEN_02_PRESENCE.wav</AudioFile>
 									<MediaIDList>
@@ -335,28 +333,6 @@
 								<ActiveSource Name="MENU_BUTTON_CLICK" ID="{EDC8591C-C2AB-4399-9CBC-CBA81D98512E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="DEATH" ID="{8D96E035-83DB-468B-A832-012008D6B41D}" ShortID="186202096">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="DEATH" ID="{3A3FAD15-2640-4854-90F8-E443CC93238D}">
-									<Language>SFX</Language>
-									<AudioFile>DEATH.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="431405618"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="DEATH" ID="{3A3FAD15-2640-4854-90F8-E443CC93238D}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="MENU_BUTTON_HOVER" ID="{6872BA4D-EE89-4E8E-9B72-B29485A5E81C}" ShortID="639636190">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -401,6 +377,73 @@
 								<ActiveSource Name="SHIELD_LOST" ID="{F7DEE071-BF19-43C2-AE34-9B6D8700E29E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="PLAYER_DEATH" ID="{A1536CE1-DA3B-4050-9C72-930D8943AFB2}" ShortID="1043869850">
+							<PropertyList>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="DEATH" ID="{8D96E035-83DB-468B-A832-012008D6B41D}" ShortID="186202096">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DEATH" ID="{3A3FAD15-2640-4854-90F8-E443CC93238D}">
+											<Language>SFX</Language>
+											<AudioFile>DEATH.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="431405618"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DEATH" ID="{3A3FAD15-2640-4854-90F8-E443CC93238D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GAME_OVER" ID="{73B4BDFB-162A-4567-9F46-66C04D8D293D}" ShortID="511688752">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{92FD7155-61B9-464A-85E5-ABA69ADFCBC2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3F37EE9A-89DF-4379-AD5E-5A84186CAC4B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="GAME_OVER" ID="{73066E3B-2670-4200-BEBB-F884C0016EA8}">
+											<Language>SFX</Language>
+											<AudioFile>GAME_OVER.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="86470443"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="GAME_OVER" ID="{73066E3B-2670-4200-BEBB-F884C0016EA8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="DEATH" ID="{8D96E035-83DB-468B-A832-012008D6B41D}"/>
+								<ItemRef Name="GAME_OVER" ID="{73B4BDFB-162A-4567-9F46-66C04D8D293D}"/>
+							</Playlist>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="MUSIC" ID="{92892EA5-3936-4B5F-B857-EDF3CCBFE8E2}" ShortID="132224828">
