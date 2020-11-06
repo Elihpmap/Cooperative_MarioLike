@@ -310,6 +310,9 @@ MonoBehaviour:
   - {fileID: 4205839947054281780, guid: f0d2ecdf63a77b34a934c3026e54dfa6, type: 3}
   spawnAllAtFirstBump: 0
   spawnAllDelay: 0.2
+  everybodyJumpTrigger: 0
+  superSonicSpeedTrigger: 0
+  inverseControlTrigger: 0
 --- !u!1 &9127884399495922078
 GameObject:
   m_ObjectHideFlags: 0
@@ -350,7 +353,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 9127884399495922078}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f77ea20f3962bab449a6db76e310543f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
