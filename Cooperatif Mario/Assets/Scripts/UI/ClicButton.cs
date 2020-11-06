@@ -26,4 +26,10 @@ public class ClicButton : MonoBehaviour
          Application.Quit();
 #endif
     }
+
+    public void switchPanel(GameObject PanelToActiv)
+    {
+        PanelToActiv.SetActive(true);
+        this.gameObject.SetActive(false);
+    }
 }
